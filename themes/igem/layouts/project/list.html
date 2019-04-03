@@ -1,0 +1,7 @@
+<h1>Yeah List</h1>
+
+<ul>
+{{ range .Site.Pages }}    
+<li>{{ .Title }}  {{ .Kind }}</li>
+{{ end }}
+</ul>

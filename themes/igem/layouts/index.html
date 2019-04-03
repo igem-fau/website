@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+
+<div class="flex w-full sm:h-screen items-center text-center bg-blue-lighter">
+    <div class="block w-full">
+    {{.Site.Title}}
+    </div>
+</div>
+
+<div class="container mx-auto my-10 shadow-lg rounded-lg p-10">
+    <h1>{{.Title}}</h1>
+
+    <p>
+        {{.Content}}
+    </p>
+</div>
+
+{{ partial "footer.html" . }}

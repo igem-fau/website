@@ -1,0 +1,87 @@
+<footer class="bg-grey-lighter w-full">
+
+    <div class="container mx-auto py-5">
+
+        <div class="table w-full">
+
+            <div class="block sm:table-cell sm:w-1/6">
+                <p class="uppercase text-grey text-sm sm:mb-6">&nbsp;</p>
+                <ul class="list-reset text-xs mb-6">
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Home</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Safety</a></li>
+                </ul>
+            </div>
+
+            <div class="block sm:table-cell sm:w-1/6">
+                <p class="uppercase text-grey text-sm sm:mb-6">Team</p>
+                <ul class="list-reset text-xs mb-6">
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/team-members" }}" class="no-underline text-grey hover:text-grey-dark">Team Members</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/collaborations" }}" class="no-underline text-grey hover:text-grey-dark">Collaborations</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/attributions" }}" class="no-underline text-grey hover:text-grey-dark">Attributions</a></li>
+                </ul>
+            </div>
+
+            <div class="block sm:table-cell sm:w-1/6">
+                <p class="uppercase text-grey text-sm sm:mb-6">Project</p>
+                <ul class="list-reset text-xs mb-6">
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/description" }}" class="no-underline text-grey hover:text-grey-dark">Description</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/design" }}" class="no-underline text-grey hover:text-grey-dark">Design</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/experiments" }}" class="no-underline text-grey hover:text-grey-dark">Experiments</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Notebook</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/contribution" }}" class="no-underline text-grey hover:text-grey-dark">Contribution</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/results" }}" class="no-underline text-grey hover:text-grey-dark">Results</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/demonstrate" }}" class="no-underline text-grey hover:text-grey-dark">Demonstrate</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/improve" }}" class="no-underline text-grey hover:text-grey-dark">Improve</a></li>
+                </ul>
+            </div>
+
+            <div class="block sm:table-cell sm:w-1/6">
+                <p class="uppercase text-grey text-sm sm:mb-6">Parts</p>
+                <ul class="list-reset text-xs mb-6">
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Parts Overview</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Basic Parts</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Composite Parts</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Parts Collection</a></li>
+                </ul>
+            </div>
+
+            <div class="block sm:table-cell sm:w-1/6">
+                <p class="uppercase text-grey text-sm sm:mb-6">Human Practices</p>
+                <ul class="list-reset text-xs mb-6">
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Human Practices</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Education & Engagement</a></li>
+                </ul>
+            </div>
+
+            <div class="block sm:table-cell sm:w-1/6">
+                <p class="uppercase text-grey text-sm sm:mb-6">Awards</p>
+                <ul class="list-reset text-xs mb-6">
+                    {{ if (fileExists "content/awards/entrepreneurship.md" ) -}}
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/awards/entrepreneurship" }}" class="no-underline text-grey hover:text-grey-dark">Entrepreneurship</a></li>
+                    {{- end }}
+                    {{ if (fileExists "content/awards/hardware.md" ) -}}
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/awards/hardware" }}" class="no-underline text-grey hover:text-grey-dark">Hardware</a></li>
+                    {{- end }}
+                    {{ if (fileExists "content/awards/measurement.md" ) -}}
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/awards/measurement" }}" class="no-underline text-grey hover:text-grey-dark">Measurement</a></li>
+                    {{- end }}
+                    {{ if (fileExists "content/awards/model.md" ) -}}
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/awards/model" }}" class="no-underline text-grey hover:text-grey-dark">Model</a></li>
+                    {{- end }}
+                    {{ if (fileExists "content/awards/plant.md" ) -}}
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/awards/plant" }}" class="no-underline text-grey hover:text-grey-dark">Plant</a></li>
+                    {{- end }}
+                    {{ if (fileExists "content/awards/software.md" ) -}}
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/awards/software" }}" class="no-underline text-grey hover:text-grey-dark">Software</a></li>
+                    {{- end }}
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

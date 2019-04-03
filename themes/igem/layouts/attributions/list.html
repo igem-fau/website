@@ -1,0 +1,68 @@
+{{ partial "head.html" . }}
+
+<div class="container mx-auto p-10 min-h-screen">
+
+<h1 class="text-blue">Attributions</h1>
+
+
+<div class="w-full mb-20">
+    <div class="bg-white shadow-md rounded my-6">
+        <table class="text-left w-full border-collapse">
+            <thead>
+                <tr>
+                    <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Name</th>
+                    <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Main Responsiblity</th>
+                    <th class="py-4 px-6 bg-grey-lightest font-bold uppercase text-sm text-grey-dark border-b border-grey-light">Also helped with</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ $members := where .Site.Pages "Type" "team-members" }}
+                {{ $members := $members | intersect ( where .Site.Pages "Params.name" "!=" nil ) }}
+                {{ $members := sort $members "Params.name" }}
+
+                {{ range $members }}
+                <tr class="hover:bg-grey-lighter">
+                    <td class="py-4 px-6 border-b border-grey-light">{{ .Params.name }}</td>
+                    <td class="py-4 px-6 border-b border-grey-light">{{ .Params.responsible }}</td>
+                    <td class="py-4 px-6 border-b border-grey-light">{{ .Params.helped }}</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Sponsors -->
+<div class="mt-10 mb-20">
+    <h2>Sponsors</h2>
+
+</div>
+
+
+
+<!-- Attributions -->
+{{ $attributions := where .Site.Pages "Type" "attributions"}}
+{{ $attributions := $attributions | intersect ( where .Site.Pages "Params.name" "!=" nil ) }}
+{{ $attributions := sort $attributions "Params.name" }}
+{{ $categories := slice }}
+{{ range $attributions }}
+    {{ $categories = $categories | append .Params.category }}
+{{ end }}
+
+{{ range $categories }}
+<div class="my-10">
+<!-- TODO: Pack this in an accordion -->
+<h3 class="my-10">{{ . }}</h3>
+
+{{ range where $attributions "Params.category" . }}
+<div class="my-5">
+    <strong>{{ .Params.name }}</strong>    
+    <div>{{ .Params.for }}</div>
+</div>
+{{ end }}
+</div>
+{{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}

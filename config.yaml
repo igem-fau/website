@@ -1,0 +1,21 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: My iGEM Team Site
+theme: igem
+
+params:
+  # The team name at the iGEM Website
+  team_name: 
+
+  # Give the social media accounts here
+  social_media:
+    twitter:
+    facebook:
+    instagram:
+    youtube:
+  
+  # State the order of the team roles to appear
+  team_members: ["Student Leader", "Student", "Instructor", "PI"]
+
+staticDir:
+  - content/team-members/images
