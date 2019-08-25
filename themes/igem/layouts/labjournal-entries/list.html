@@ -1,0 +1,45 @@
+{{ partial "head.html" . }}
+
+<div class="container mx-auto my-10 min-h-screen">
+    <h1 class="text-blue">Notebook</h1>
+
+    <p>
+        {{.Content}}
+    </p>
+
+    {{ $pages := .Data.Pages }}
+
+    {{ $lastMonth := "" }}
+
+    {{ range (sort $pages ".Date") }}
+
+    {{ if ne (dateFormat "Jan" .Date) $lastMonth }}
+    <h2 class="my-10 text-3xl">{{ dateFormat "January" .Date }}</h2>
+    {{ end }}
+
+    <div class="shadow-lg rounded p-3 my-10">
+        <h3 class="text-2xl">{{ .Date.Day }}</h3>
+
+        <table class="my-10">
+            <tr>
+                <td class="font-bold pr-5">Aim / Task</td>
+                <td>{{ .Params.aimtask }}</td>
+            </tr>
+            <tr>
+                <td class="font-bold pr-5">Protocol</td>
+                <td>{{ .Params.protocol }}</td>
+            </tr>
+            <tr>
+                <td class="font-bold pr-5">Participants</td>
+                <td>{{ .Params.participants }}</td>
+            </tr>
+        </table>
+
+        {{ .Content }}
+    </div>
+
+    {{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}

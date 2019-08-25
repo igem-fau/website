@@ -1,5 +1,5 @@
 ---
-name: Max Mustermann
+name: John Doe 
 field: Field of Study
 role: Student
 
@@ -8,5 +8,5 @@ responsible: something
 helped: something else
 
 # Image
-image: /max-mustermann.jpg
+image: /john-doe.jpg
 ---

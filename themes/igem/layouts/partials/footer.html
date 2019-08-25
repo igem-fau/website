@@ -1,19 +1,27 @@
-<footer class="bg-grey-lighter w-full">
+{{ if false }}
+<div class="border-t border-grey-light py-5">
+<div class="container mx-auto">
+    Share
+</div>
+</div>
+{{ end }}
 
-    <div class="container mx-auto py-5">
+<footer class="bg-grey-darkest w-full">
+
+    <div class="container mx-auto py-10">
 
         <div class="table w-full">
 
             <div class="block sm:table-cell sm:w-1/6">
-                <p class="uppercase text-grey text-sm sm:mb-6">&nbsp;</p>
+                <p class="uppercase text-grey-700 text-sm sm:mb-6">&nbsp;</p>
                 <ul class="list-reset text-xs mb-6">
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Home</a></li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Safety</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/safety" }}" class="no-underline text-grey hover:text-grey-dark">Safety</a></li>
                 </ul>
             </div>
 
             <div class="block sm:table-cell sm:w-1/6">
-                <p class="uppercase text-grey text-sm sm:mb-6">Team</p>
+                <p class="uppercase text-yellow-700 font-bold text-sm sm:mb-6">Team</p>
                 <ul class="list-reset text-xs mb-6">
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/team-members" }}" class="no-underline text-grey hover:text-grey-dark">Team Members</a></li>
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/collaborations" }}" class="no-underline text-grey hover:text-grey-dark">Collaborations</a></li>
@@ -22,12 +30,12 @@
             </div>
 
             <div class="block sm:table-cell sm:w-1/6">
-                <p class="uppercase text-grey text-sm sm:mb-6">Project</p>
+                <p class="uppercase text-green-700 font-bold text-sm sm:mb-6">Project</p>
                 <ul class="list-reset text-xs mb-6">
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/description" }}" class="no-underline text-grey hover:text-grey-dark">Description</a></li>
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/design" }}" class="no-underline text-grey hover:text-grey-dark">Design</a></li>
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/experiments" }}" class="no-underline text-grey hover:text-grey-dark">Experiments</a></li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Notebook</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/labjournal-entries" }}" class="no-underline text-grey hover:text-grey-dark">Notebook</a></li>
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/contribution" }}" class="no-underline text-grey hover:text-grey-dark">Contribution</a></li>
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/results" }}" class="no-underline text-grey hover:text-grey-dark">Results</a></li>
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/project/demonstrate" }}" class="no-underline text-grey hover:text-grey-dark">Demonstrate</a></li>
@@ -36,7 +44,7 @@
             </div>
 
             <div class="block sm:table-cell sm:w-1/6">
-                <p class="uppercase text-grey text-sm sm:mb-6">Parts</p>
+                <p class="uppercase text-blue-700 font-bold text-sm sm:mb-6">Parts</p>
                 <ul class="list-reset text-xs mb-6">
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Parts Overview</a></li>
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Basic Parts</a></li>
@@ -46,15 +54,15 @@
             </div>
 
             <div class="block sm:table-cell sm:w-1/6">
-                <p class="uppercase text-grey text-sm sm:mb-6">Human Practices</p>
+                <p class="uppercase text-purple-700 font-bold text-sm sm:mb-6">Human Practices</p>
                 <ul class="list-reset text-xs mb-6">
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Human Practices</a></li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="#" class="no-underline text-grey hover:text-grey-dark">Education & Engagement</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/human-practices/human-practices" }}" class="no-underline text-grey hover:text-grey-dark">Human Practices</a></li>
+                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/human-practices/education-engagement" }}" class="no-underline text-grey hover:text-grey-dark">Education & Engagement</a></li>
                 </ul>
             </div>
 
             <div class="block sm:table-cell sm:w-1/6">
-                <p class="uppercase text-grey text-sm sm:mb-6">Awards</p>
+                <p class="uppercase text-red-700 font-bold text-sm sm:mb-6">Awards</p>
                 <ul class="list-reset text-xs mb-6">
                     {{ if (fileExists "content/awards/entrepreneurship.md" ) -}}
                     <li class="mt-2 inline-block mr-2 sm:block sm:mr-0"><a href="{{ ref . "/awards/entrepreneurship" }}" class="no-underline text-grey hover:text-grey-dark">Entrepreneurship</a></li>
@@ -78,6 +86,26 @@
             </div>
 
         </div>
+
+        {{ if or (.Site.Params.social_media.facebook) (.Site.Params.social_media.twitter) (.Site.Params.social_media.instagram) (.Site.Params.social_media.youtube) }}
+        <div class="flex items-center justify-end mr-32 align-middle">
+            <div class="text-xs text-grey-dark mr-5">Join us on social media</div>
+            <ul class="list-reset">
+            {{ with .Site.Params.social_media.facebook }}
+            <li class="inline-block text-2xl m-2"><a class="no-underline hover:text-white text-grey" href="https://facebook.com/{{ . }}" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            {{ end }}
+            {{ with .Site.Params.social_media.twitter }}
+            <li class="inline-block text-2xl m-2"><a class="no-underline hover:text-white text-grey" target="_blank" href="https://www.twitter.com/{{ . }}"><i class="fab fa-twitter"></i></a></li>
+            {{ end }}
+            {{ with .Site.Params.social_media.instagram }}
+            <li class="inline-block text-2xl m-2"><a class="no-underline hover:text-white text-grey" target="_blank" href="https://www.instagram.com/{{ . }}"><i class="fab fa-instagram"></i></a></li>
+            {{ end }}
+            {{ with .Site.Params.social_media.youtube }}
+            <li class="inline-block text-2xl m-2"><a class="no-underline hover:text-white text-grey" target="_blank" href="https://www.youtube.com/channel/{{ . }}"><i class="fab fa-youtube"></i></a></li>
+            {{ end }}
+            </ul>
+        </div>
+        {{ end }}
 
     </div>
 

@@ -9,10 +9,10 @@ params:
 
   # Give the social media accounts here
   social_media:
-    twitter:
-    facebook:
-    instagram:
-    youtube:
+    facebook:  
+    twitter: 
+    instagram: 
+    youtube: 
   
   # State the order of the team roles to appear
   team_members: ["Student Leader", "Student", "Instructor", "PI"]
