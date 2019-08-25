@@ -5,7 +5,7 @@
  - [X] Static pages: main page, everything at project, human practices + awards
  - [X] Team members: members page, collaborations + attributions
  - [ ] Parts: Parts overview, basic parts, composite parts and parts collection
- - [ ] Lab Journal
+ - [X] Lab Journal
 
 ## Deploying
 
