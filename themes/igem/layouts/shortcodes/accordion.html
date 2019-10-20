@@ -1,0 +1,11 @@
+<div class="accordion flex flex-col items-center justify-center">
+    <div class="w-full">
+      <input type="checkbox" name="panel" id="panel-{{ .Get "id" }}" class="hidden">
+      <label for="panel-{{ .Get "id" }}" class="accordion__label">{{ .Get "title" }}</label>
+      <div class="accordion__content overflow-hidden bg-grey-lighter shadow-2xl rounded-lg my-2">
+        <p class="accordion__body" id="panel1">
+            {{ .Inner }}
+        </p>
+        </div>
+    </div>
+</div>

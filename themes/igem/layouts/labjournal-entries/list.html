@@ -10,33 +10,73 @@
     {{ $pages := .Data.Pages }}
 
     {{ $lastMonth := "" }}
+    {{ $lastDay := 0 }}
+    {{ $dayCounter := 1 }}
+    {{ $i := 1 }}
 
     {{ range (sort $pages ".Date") }}
 
-    {{ if ne (dateFormat "Jan" .Date) $lastMonth }}
-    <h2 class="my-10 text-3xl">{{ dateFormat "January" .Date }}</h2>
-    {{ end }}
+        {{ $currentMonth := (dateFormat "Jan" .Date) }}
+        {{ $currentDay := (dateFormat "_2" .Date) }}
 
-    <div class="shadow-lg rounded p-3 my-10">
-        <h3 class="text-2xl">{{ .Date.Day }}</h3>
+        {{ if (eq $currentDay $lastDay) }}
+            {{ $dayCounter = (add $dayCounter 1) }}
+        {{ else}}
+            {{ $dayCounter = 1 }}
+            {{ $lastDay = $currentDay }}
+        {{ end }}
 
-        <table class="my-10">
-            <tr>
-                <td class="font-bold pr-5">Aim / Task</td>
+        {{ if (ne $currentMonth $lastMonth) }}
+
+            {{ if (ne $lastMonth "") }}
+            </div>
+            {{ end }}
+
+            <h2 class="my-10 text-3xl">{{ dateFormat "January" .Date }}</h2>
+            {{ $lastMonth = (dateFormat "Jan" .Date) }}
+
+            <div class="accordion flex flex-col items-center justify-center">
+            
+        {{ end }}
+
+    <div class="w-full">
+      <input type="checkbox" name="panel" id="panel-{{ $i }}" class="hidden">
+      <label for="panel-{{ $i }}" class="accordion__label">
+          <p class="inline-block font-bold text-xl mr-5 opacity-50">
+              {{ .Date.Day }}
+              {{if gt $dayCounter 1 }}
+              <strong class="inline-block opacity-75 text-sm">({{ $dayCounter }})</strong>
+              {{end}}
+          </p>
+          <p class="inline-block">{{ .Params.aimtask }}</p>
+      </label>
+      <div class="accordion__content overflow-hidden bg-grey-lighter shadow-2xl rounded-lg my-2">
+        <p class="accordion__body" id="panel1">
+            
+        <table class="mb-10">
+            <tr class="p-2">
+                <td class="font-bold text-xs text-gray-700 pr-5">Aim / Task</td>
                 <td>{{ .Params.aimtask }}</td>
             </tr>
-            <tr>
-                <td class="font-bold pr-5">Protocol</td>
+            <tr class="p-2">
+                <td class="font-bold text-xs text-gray-700 pr-5">Protocol</td>
                 <td>{{ .Params.protocol }}</td>
             </tr>
-            <tr>
-                <td class="font-bold pr-5">Participants</td>
+            <tr class="p-2">
+                <td class="font-bold text-xs text-gray-700 pr-5">Participants</td>
                 <td>{{ .Params.participants }}</td>
             </tr>
         </table>
 
+        <div class="labjournal">
         {{ .Content }}
+        </div>
+
+      </div>
     </div>
+
+    {{ $i = (add $i 1) }}
+
 
     {{ end }}
 

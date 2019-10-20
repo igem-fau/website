@@ -2,8 +2,24 @@
 <html>
 <head>
 
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    {{ if .Site.IsServer }}
+    
+        {{ $style := resources.Get "css/styles.css" | resources.PostCSS (dict "config" "./assets/css/dev/postcss.config.js" ) | fingerprint }} 
+        <link rel="stylesheet" href="{{ $style.Permalink }}" data>
+
+    {{ else }}
+
+        {{ $style := resources.Get "css/styles.css" | resources.PostCSS (dict "config" "./assets/css/postcss.config.js" ) | fingerprint }} 
+        <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+    {{ end }}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+
+    {{ $mainScript := resources.Get "js/main.js" }}
+    {{ $jquery := resources.Get "js/jquery-3.4.1.min.js" }}
+    {{ $js := slice $jquery $mainScript | resources.Concat "js/bundle.js" | minify | fingerprint }}
+
+    <script src="{{ $js.Permalink }}" {{ printf "integrity=%q" $js.Data.Integrity | safeHTMLAttr }}></script>
     
 </head>
 <body class="font-sans antialiased bg-grey-lightest">

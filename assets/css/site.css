@@ -1,0 +1,150 @@
+/*****************
+    Headlines
+ *****************/
+
+h1 {
+    @apply font-bold text-3xl text-gray-600 my-6;
+}
+
+h2 {
+    @apply font-bold text-lg text-gray-500 my-4;
+}
+
+#main p {
+    @apply leading-loose mb-2;
+}
+
+/******************
+    Accordion
+ ******************/
+
+label:after {
+    content: '+';
+    position: absolute;
+    right: 1em;
+    color: #fff;
+}
+  
+input:checked + label:after {
+    content: '-';
+    line-height: .8em;
+}
+
+.accordion__label {
+    background-image: linear-gradient(134deg, #2867E8 0%, #B2EBF7 100%);
+
+    @apply relative block text-white p-4 shadow-xl border-b rounded-lg;
+}
+
+.accordion__label p {
+    line-height: 1 !important;
+    margin-bottom: 0 !important;
+}
+
+  
+.accordion__content{
+    max-height: 0em;
+    transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+
+    @apply bg-white;
+}
+
+input[name='panel']:checked ~ .accordion__content {
+    /* Get this as close to what height you expect */
+    max-height: 500em;
+
+    @apply p-5 my-2;
+}
+
+.floating-box {
+    @apply shadow-lg rounded-lg p-4 my-6;
+    transition: all 0.4s linear;
+}
+
+.floating-box:hover {
+    @apply shadow-xl p-6 my-4 -mx-2;
+}
+
+.floating-toc {
+    background: #FFFFFF;
+    box-shadow: -24px 0 37px -43px rgba(39,135,215,0.66);
+
+    @apply float-right pl-2 py-3 sticky text-right;
+}
+
+.labjournal p {
+    @apply p-2;
+}
+
+.labjournal ul {
+    list-style: disc;
+
+    @apply p-2 m-2;
+}
+
+.labjournal ol {
+    list-style: decimal;
+    @apply p-2 m-2;
+}
+
+table {
+    @apply my-4 shadow-lg w-full;
+}
+
+thead tr {
+    background-image: linear-gradient(134deg, #2867E8 0%, #B2EBF7 100%);
+    background-attachment: fixed;
+
+    @apply shadow-lg;
+}
+
+thead th {
+    text-align: left;
+    @apply p-4 text-white font-bold uppercase text-xs opacity-75;
+}
+
+tbody td {
+    @apply p-4 border-b border-gray-200;
+    text-align: left;
+}
+
+tbody tr:last-child {
+    @apply border-none;
+}
+
+tbody tr:hover {
+    @apply bg-gray-100;
+}
+
+/*********************
+     Team member 
+ *********************/
+
+.team-member {
+    @apply shadow-lg;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.0);
+}
+
+.team-member:hover {
+    @apply shadow-2xl;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.sticky-header {
+    transition: all 0.1s ease-in-out;
+}
+
+.sticky-off {
+    top: -84px;
+    opacity: 0; 
+}
+  
+.sticky-on {
+    top: 0;
+    opacity: 1; 
+}

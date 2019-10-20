@@ -9,13 +9,13 @@ params:
 
   # Give the social media accounts here
   social_media:
-    facebook:  
-    twitter: 
-    instagram: 
-    youtube: 
+    facebook: igemErlangen 
+    twitter:  iGEM_Erlangen
+    instagram: igem.erlangen
+    youtube: UCxT11JmhRH62aBn-HZxGhQA
   
   # State the order of the team roles to appear
-  team_members: ["Student Leader", "Student", "Instructor", "PI"]
+  team_members: ["Student Leader", "Student", "Instructor", "PI", "Advisor"]
 
 staticDir:
   - content/team-members/images

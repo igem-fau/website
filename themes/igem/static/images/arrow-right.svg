@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="11px" class="inline-block mr-1" viewBox="0 0 15 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Full-HD" transform="translate(-1668.000000, -95.000000)" fill="#FFFFFF">
+            <g id="Group-5" transform="translate(1668.000000, 94.000000)">
+                <rect id="Rectangle" x="0" y="4.87867966" width="14" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" transform="translate(11.121320, 4.500000) rotate(45.000000) translate(-11.121320, -4.500000) " x="7.12132034" y="3" width="8" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" transform="translate(11.000000, 8.378680) rotate(-45.000000) translate(-11.000000, -8.378680) " x="7" y="6.87867966" width="8" height="3" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg> 
