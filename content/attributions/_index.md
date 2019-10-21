@@ -11,7 +11,7 @@ title: Attributions
 | Prof. Dr. Yves Muller | Lehrstuhl für Biotechnik /Chair for Biotechnology (Protein structure and design),  | Wet-Lab | Advice on E. Coli Stems and Donation of cultures |
 | Prof. Dr. Robert Zimmermann | Transfusionsmedizinische und Hämostaseologische Abteilung in der Chirurgischen Klinik | Wet-Lab | provision of leukocytes for proof of concept  |
 | Prof. Dr. Hans-Martin Jäck | Nikolaus-Fiebiger-Zentrum | Wet-Lab | Advise and introduction on electroporation, provision of electroporator and electroporator cuvettes |
-| Frau Regula Muheim-Lenz  | Geschäftsstelle Department Biologie | Human Practices | Briefing on: “Lange Nacht der Wissenschaft” a Nationwide Science Promotion Event  |
+| Frau Regula Muheim-Lenz  | Geschäftsstelle Department Biologie | Human Practices | Briefing on: "Lange Nacht der Wissenschaft" a Nationwide Science Promotion Event  |
 | ? | Felix Burda Stiftung /Foundation | Integrated Human Practice | ? |
 | Frau Ingeborg Graf | Lehrstuhl für Genetik (Prof. Nimmerjahn) | Finances | Setting up and further handling of our bank account |
 | Frau Altenbuchner | ? | ? |  Advice on ethics procedures |

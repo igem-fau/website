@@ -21,7 +21,7 @@ The basic principle of molecular dynamics (MD-) simulations is to define a virtu
 
 ## What and how we simulated
 
-For our project, we used the free version “AmberTools18” in order to simulate potential peptide linkers to facilitate rational decision making concerning the actual implemented linker for the synthesized bispecific antibody.
+For our project, we used the free version "AmberTools18" in order to simulate potential peptide linkers to facilitate rational decision making concerning the actual implemented linker for the synthesized bispecific antibody.
 
 ### Simulated molecules
 
@@ -39,7 +39,7 @@ Subsequently, energy minimization was performed for 1000 cycles to allow the gen
 Then, the system was equilibrated, meaning that the volume was warmed from 100 K to 310 K over 200 ps.
 Finally, the linker was simulated in implicit solvent for 400 ns with a time step of 2 fs and by using the ff14SB force field.
 
-The lengths of the peptides were determined by measuring the direct distance between the alpha-C atoms of the first and the last amino acid within the particular linker. The coordinates during the simulations were saved in 100 ps time steps.
+The lengths of the peptides were determined by measuring the direct distance between the {{% rawhtml %}}&alpha;{{% /rawhtml %}}-C atoms of the first and the last amino acid within the particular linker. The coordinates during the simulations were saved in 100 ps time steps.
 
 ## Rational Linker Choice
 
@@ -59,7 +59,7 @@ This also shows that the (EA3K)n linker possesses a longer average length, when 
 
 ### Why we favoured _(G4S)4_
 
-According to Klein et al., the diameter of an scFv is about 35 Å \[Klein et al. 2009\]. Our own distance calculations of the scFv fragment from the pdb entry 3h3b using pymol resulted in an average diameter of about 42 Å. We calculated the distance between the C-terminal alpha-C atom of the V<sub>H</sub> region (where the linker to the complement scFv is attached) and alpha-C atoms of residues lying at the outer border of the protein. This can be seen in the video below. The V<sub>H</sub> and V<sub>L</sub> regions are colored in red and green, respectively. The linker would be attached at the yellow marked atom. The aforementioned alpha-C atoms are presented as spheres.
+According to Klein et al., the diameter of an scFv is about 35 Å \[Klein et al. 2009\]. Our own distance calculations of the scFv fragment from the pdb entry 3h3b using pymol resulted in an average diameter of about 42 Å. We calculated the distance between the C-terminal {{% rawhtml %}}&alpha;{{% /rawhtml %}}-C atom of the V<sub>H</sub> region (where the linker to the complement scFv is attached) and {{% rawhtml %}}&alpha;{{% /rawhtml %}}-C atoms of residues lying at the outer border of the protein. This can be seen in the video below. The V<sub>H</sub> and V<sub>L</sub> regions are colored in red and green, respectively. The linker would be attached at the yellow marked atom. The aforementioned {{% rawhtml %}}&alpha;{{% /rawhtml %}}-C atoms are presented as spheres.
 
 ![<scFv domain>](/awards/images/lscFv.gif)
 
@@ -155,9 +155,9 @@ The Biobrick parts registry contains many sequences, including many from the the
 
 ## References
 
-Arai R., et al., “Conformations of variable linked chimeric proteins evaluated by synchroton X-ray small-angle scattering”, _Proteins_, 2004:57, 829-838
+Arai R., et al., "Conformations of variable linked chimeric proteins evaluated by synchroton X-ray small-angle scattering", _Proteins_, 2004:57, 829-838
 
-Arai R., et al., “Design of the linkers which effectively separate domains of a bifunctional fusion protein”, _Protein Eng._, 2001:14, 529-532
+Arai R., et al., "Design of the linkers which effectively separate domains of a bifunctional fusion protein", _Protein Eng._, 2001:14, 529-532
 
 Evans R., et al.  "De novo structure prediction with deep-learning based scoring" _In Thirteenth Critical Assessment of Techniques for Protein Structure Prediction (Abstracts)_, 1-4 December 2018
 
@@ -167,7 +167,7 @@ Goodman, R. E., et al., "AllergenOnline: a peer‐reviewed, curated allergen dat
 
 He, K., et al., "Deep residual learning for image recognition.", _In Proceedings of the IEEE conference on computer vision and pattern recognition_, 2016, 770-778
 
-Huston, J. S., et al., “Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.”, _Proceedings of the National Academy of Sciences_, 2018:85, 5879-5883
+Huston, J. S., et al., "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.", _Proceedings of the National Academy of Sciences_, 2018:85, 5879-5883
 
 Ivanciuc, O., et al., "Detecting potential IgE-reactive sites on food proteins using a sequence and structure database, SDAP-food.", _Journal of agricultural and food chemistry_, 2003:51(16), 4830-4837
 
@@ -179,21 +179,21 @@ Li K., Ya-Chen, et al. "Cutting Edge: mechanical forces acting on T cells immobi
 
 Mari, A., & Riccioli, D., "The Allergome Web Site-a database of allergenic molecules. Aim, structure, and data of a web-based resource.", _Journal of Allergy and Clinical Immunology_, 2004:113(2), 301
 
-Marqusee S., Baldwin R.L., “Helix stabilisation by Glu-...Lys+ salt bridges in short peptides of de novo design”, _Proc. Natl. Acad. Sci. U.S.A._, 1987:84, 8898-8902
+Marqusee S., Baldwin R.L., "Helix stabilisation by Glu-...Lys+ salt bridges in short peptides of de novo design", _Proc. Natl. Acad. Sci. U.S.A._, 1987:84, 8898-8902
 
 Mohabatkar, H., et al. "Prediction of allergenic proteins by means of the concept of Chou's pseudo amino acid composition and a machine learning approach.", _Medicinal Chemistry_ 2013:9.1, 133-137.
 
 Rifaioglu, A. S., et al. "DEEPred: Automated Protein Function Prediction with Multi-task Feed-forward Deep Neural Networks." _Scientific reports_, 2019:9.1, 7344
 
-Robinson-Mosher A. et al., “Dynamics simulations for engineering macromolecular interactions”, _Chaos: An Interdisciplinary Journal of Nonlinear Science_, 2013:23.2, 025110
+Robinson-Mosher A. et al., "Dynamics simulations for engineering macromolecular interactions", _Chaos: An Interdisciplinary Journal of Nonlinear Science_, 2013:23.2, 025110
 
 Różycki B., and Cieplak M., "Stiffness of the C-terminal disordered linker affects the geometry of the active site in endoglucanase Cel8A.", _Molecular BioSystems_, 2016:12, 3589-3599
 
-Różycki B., et al., “The length but not the sequence of peptide linker modules exerts the primary influence on the conformations of protein domains in cellulosome multi-enzyme complexes”, _Physical Chemistry Chemical Physics_, 2017:19, 21414-21425
+Różycki B., et al., "The length but not the sequence of peptide linker modules exerts the primary influence on the conformations of protein domains in cellulosome multi-enzyme complexes", _Physical Chemistry Chemical Physics_, 2017:19, 21414-21425
 
-Van Rosmalen M., Krom M., Merkx M, “Tuning the Flexibility of Glycine-Serine Linkers To Allow Rational Design of Multidomain Proteins”, _Biochemistry_ 2017:56(50), 6565-6574
+Van Rosmalen M., Krom M., Merkx M, "Tuning the Flexibility of Glycine-Serine Linkers To Allow Rational Design of Multidomain Proteins", _Biochemistry_ 2017:56(50), 6565-6574
 
-Vazana Y. et al., “A synthetic biology approach for evaluating the functional contribution of designer cellulosome components to deconstruction of cellulosic substrates”, _Biotechnology for Biofuels_, 2013:6, 1822+
+Vazana Y. et al., "A synthetic biology approach for evaluating the functional contribution of designer cellulosome components to deconstruction of cellulosic substrates", _Biotechnology for Biofuels_, 2013:6, 1822+
 
 Wang, S., et al., "Accurate de novo prediction of protein contact map by ultra-deep learning model.", _PLoS computational biology_, 2017:13(1), e1005324.
 

@@ -3,13 +3,13 @@ title: Experiments
 color: green
 ---
 
-Lorem ipsum
+The following protocols cover our methods used for cloning, cell culture, protein analysis, and measurement.
+
 
 {{% accordion id="ex1" title="Puring gels" %}}
-
 **Puring gels:**
 
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
 For Coomassi staining and western blots gels are needed. The choice of
 gel and % of the gel is dependent on the protein.
@@ -68,7 +68,7 @@ Stacking gel:
 {{% accordion id="ex2" title="Handling of IDT sequences" %}}
 
 **Handling of IDT sequences:**
-
+---
 **Procedure:**
 
 1.  spin down aliquots
@@ -87,6 +87,7 @@ Stacking gel:
 {{% accordion id="ex3" title="Preparation of all buffers" %}}
 
 **Preparation of all buffers:**
+---
 
 
 **LB Medium:**
@@ -102,7 +103,7 @@ Stacking gel:
 
 | 10mM   | Hepes            | 2.38 g/L  |
 | ------ | ---------------- | --------- |
-| 15 mM  | CaCl<sub>2</sub| 2.21 g/L  |
+| 15 mM  | CaCl<sub>2</sub> | 2.21 g/L  |
 | 55 mM  | MnCl2xH2O        | 10.89 g/L |
 | 250 mM | KCl              | 18.64 g/L |
 
@@ -152,7 +153,7 @@ Stacking gel:
 | ddH2O    | ddH2O              |
 | Total:   | 1L of 10% Glycerol |
 
-**Medium for 293T HEK cells (10%):**
+**Medium for 293T HEK cells (10%) (HEK medium):**
 
 | DMEM - Dulbecco's Modified Eagle Medium | 500 ml |
 | --------------------------------------- | ------ |
@@ -188,10 +189,10 @@ Stacking gel:
 
 **Preparation of chemically competent bacteria:**
 ---
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
-Competent cells have a increased cell permeability. This is an important
-characteristic for the following transformation, where the aim is to
+Competent cells have an increased cell permeability. This is an important
+characteristic for the following transformation in which the aim is to
 transfer DNA into the bacteria.
 
 **Procedure:**
@@ -239,10 +240,10 @@ months.
 **Preparation of electro-competent cells**
 ---
 
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
 Competent cells have a increased cell permeability. This is an important
-characteristic for the following transformation, where the aim is to
+characteristic for the following transformation in which the aim is to
 transfer DNA into the bacteria.
 
 **Prepare first:**
@@ -324,6 +325,7 @@ transfer DNA into the bacteria.
 
 **Polymerase chain reaction (PCR):**
 ---
+
 *Why did we use this method?*
 
 Within the method of PCR it is possible to amplify small fragments of
@@ -387,8 +389,7 @@ Phusion High-Fidelity PCR master mix.
 **Restriction digest**
 ---
 
-*Why did we choose this experiment?*
-
+*Why did we choose this method?*
 
 We used a restriction digest for our cloning strategy.
 
@@ -425,12 +426,10 @@ We used a restriction digest for our cloning strategy.
 **Dephosphoryllation of the digested DNA fragments**
 ---
 
+*Why did we choose this method?*
 
-*Why did we choose this experiment?*
-
-After the digestion of the DNA fragments, there is a likelihood that
-they relegate again. To prohibit that issue, the method of
-dephosphorylation was chosen, were phosphate groups are split of.
+After vector digestion, the newly formed fragments could religate, which would prevent the insertion of our sequence.
+Removing the phosphate groups of the fragment ends by dephosphorylation probits that issue.
 
 **Master Mix:   **
 
@@ -460,7 +459,7 @@ dephosphorylation was chosen, were phosphate groups are split of.
 
 *Why did we choose this method?*
 
-This method makes cells permeable which allows to transform DNA into the
+This method makes cell membranes permeable, which allows to transform DNA into the
 cells. The permeabilization is done by short pulses
 
 **Procedure:**
@@ -509,9 +508,7 @@ cells. The permeabilization is done by short pulses
 
 *Why did we choose this method?*
 
-We have produced chemically competent cells and transformed them with
-the method of heat shock. Thereby, we transferred our DNA into the
-bacteria with the help of this method.
+Heat shock is performed to insert our produced plasmids into our prepared chemically competent cells.
 
 **Procedure:**
 
@@ -542,16 +539,15 @@ bacteria with the help of this method.
 {{% /accordion %}}
 
 
-{{% accordion id="ex12" title="Isolation of DNA from transformed bacteria (Mini – Midi Prep)" %}}
+{{% accordion id="ex12" title="Isolation of plasmid DNA from transformed bacteria (Mini – Midi Prep)" %}}
 
-**Isolation of DNA from transformed bacteria (Mini – Midi Prep)**
+**Isolation of plasmid DNA from transformed bacteria (Mini – Midi Prep)**
 ---
 
+*Why did we choose this method?*
 
-*Why did we chose this experiment?*
+Isolating the plasmid from the transformed bacteria allows us to verify the cloning and transformation success.
 
-This experiment enables to isolate DNA out of cells. With this it is
-possible to check wether the previous transformation has worked or not.
 
 **Procedure:**
 
@@ -572,7 +568,7 @@ weight of approximately 3 g/liter.
 
 3. Harvest the bacterial cells by centrifugation at 6000 x g for 15 min
 at 4°C.
-Ifyouwishtostoptheprotocolandcontinuelater,freezethecellpelletsat–20°C.
+If you wish to stop the protocol and continue later, freeze the cell pellets at –20°C.
 
 4. Resuspend the bacterial pellet in 0.3 ml of Buffer P1. Ensure that
 RNase A has been added to Buffer P1.
@@ -666,11 +662,11 @@ of appropriate buffer (e.g., TE buffer, pH 8.0, or 10 mM Tris·Cl, pH
 **Colony PCR:**
 ---
  
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
 Polymerase chain reaction is an in vitro technique to exponentially
 amplify DNA of interest. Here, we exploit this technique to confirm the
-insertion of a specific DNA part into the genome of E. Coli.
+transformation and insertion of our sequence into our plasmids.
 
 **Materials:**
 
@@ -712,7 +708,7 @@ antibiotics.
 **Agarose-Gel electrophoresis**
 ---
 
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
 This method is used as a quality control of enzymatic reactions on DNA
 or RNA. It is also useful for the separation of DNA or RNA fragments of
@@ -764,7 +760,7 @@ least 20 minutes until the gel is fully polymerized.
 *Why did we choose this method?*
 
 Gibson assembly is a very useful tool for cloning, because it is
-possible to fuse several fragments.
+possible to fuse several fragments. Therefore, Gibson assembly was chosen as one of our cloning strategies.
 
 **Procedure:**
 
@@ -790,10 +786,10 @@ possible to fuse several fragments.
 **Ligation:**
 ---
 
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
 With the help of the T4 Ligase, it is possible to connect DNA fragments
-which were previous digested by restriction digestion.
+which were previous digested by restriction digestion. Thus, blunt-end cloning was performed with this method.
 
 **Procedure:**
 
@@ -834,12 +830,10 @@ which were previous digested by restriction digestion.
  **Gelextraction**
 ---
 
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
-
-We were not interested of the whole sample but just parts of it.
-Thereby, with the help of a gelextraction it was possible for us to
-investigate just the parts of interest of our samples.
+Gelextraction was performed to isolate specific DNA fragments from agarose gels.
+Thereby, with the help of gelextraction it was possible for us to carry out further experiments with the desired DNA fragments.
 
 **Materials:**
 
@@ -899,10 +893,9 @@ up and down before loading the gel.
  **Cultivation of HEK 293T cells:**
 ---
 
-*Why did we choose HEK 293T cells?*
+*Why did we choose this method?
 
-These cells functioned as an expression system, to produce our proteins
-of interest.
+HEK 293T cells expressed our constructs optimized for eukaryotic expression. Cultivation is performed to obtain a sufficient number of cells for transfection and protein expression.
 
 **Procedure:**
 
@@ -910,36 +903,35 @@ of interest.
 
 1.  Fill 10ml medium into a 75 cm² culture flask
 
-2.  Frozen cells in cryotubes should be defrosted quickly under e.g.
-    warm water.
+2.  Frozen cells in cryotubes should be defrosted quickly under warm water.
 
-3.  Apply cells to centrifuge tubes and with 5ml medium
+3.  Transfer cells into centrifuge tubes and add 5ml HEK medium (see preparation of all buffers)
 
 4.  Centrifuge the tubes at 900 U for 5 min and discard the supernatant
 
-5.  Resuspend the pellet in 5ml medium and put the suspension the the
+5.  Resuspend the pellet in 5ml HEK medium and put the suspension the the
     prepared culture flask from step 1
 
 **Change medium of the adherent 293T cells**
 
-1.  Discard medium
+1.  Discard HEK medium
 
-2.  Add new medium into the culture flask
+2.  Add new HEK medium into the culture flask
 
 **Trypsinization of the 293T cells to detach them from the culture flask
 wall**
 
- 1. Discard medium
+ 1. Discard HEK medium
  
 2. Washing with 3 ml trypsin
  
 3. Incubation with 3 ml trypsin
 
-4. When cells are detached mixing with 7 ml Medium 
+4. When cells are detached mixing with 7 ml HEK medium 
  
 5. Counting in neubauer chamber
  
-6. Add respective amount of medium
+6. Add respective amount of HEK medium
    
  {{% /accordion %}}
 
@@ -949,10 +941,10 @@ wall**
  **FACS (fluorescence activated cell sorting):**
 ---
 
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
-With the FACS method, it is possible to send cells trough a laser sensor
-and check the condition of the cells.
+With the fluorescence-activated cell sorting (FACS) method it is possible to send cells trough a laser sensor
+and check the condition of the cells. We used FACS for the part characterization.
 
 **Procedure:**
 
@@ -979,15 +971,9 @@ and check the condition of the cells.
  **Protein purification by His SpinTrap**
 ---
 
-*Why did we choose this experiment?*
+*Why did we choose this method?*
 
-His-tag purification uses the purification technique of immobilized
-metal affinity chromatography. In this technique, transition metal ions
-are immobilized on a resin matrix using a chelating agent such as
-iminodiacetic acid. The most common ion for the his-purification is
-Ni2+. The His-tag has high affinity for these metal ions and binds
-strongly to the column. Imidazole competes with the His-tag for binding
-to the metal-charged resin and thus is used for elution of the protein
+We integrated Histidine (His)-tags in all our composite parts for detection and purification. This allows us to isolate our desired proteins via His-tag-purification. His-tag purification uses the purification technique of immobilized metal affinity chromatography. In this technique, transition metal ions are immobilized on a resin matrix using a chelating agent such as iminodiacetic acid. The most common ion for the his-purification is Ni2+. The His-tag has high affinity for these metal ions and binds strongly to the column. Imidazole competes with the His-tag for binding to the metal-charged resin and thus is used for elution of the protein.
 
 Binding buffer: 50mM NaH2PO4, 500 mM NaCl, 20 mM Imidazol, pH 8,0
 
@@ -1046,15 +1032,11 @@ sample.
  **Western Blotting**
 ---
 
-*Why we chose this experiment*
+*Why did we choose this method*
 
-Different purification tags are commonly used to isolate fusion proteins
-or to detect certain proteins within lysates or other protein mixtures.
-Western Blotting is a technique used to identify small amount s of
-tagged proteins. Using a primary antibody to detect the specific target
-or protein present in the sample and a secondary antibody specifically
-detecting the bound primary antibody, Western blots are a very common
-tool to determine the presence of the target proteins within a sample.
+Different purification tags are commonly used to isolate fusion proteins or to detect certain proteins within lysates or other protein mixtures. Western Blotting is a technique used to identify small amounts of tagged proteins.
+A primary antibody detects and binds a specific target protein present in the sample and is then recognized by a secondary antibody, that is coupled to a fluorescent protein, radioactive substance, or an enzyme, which catalyzes a light emitting reaction. Then, detection systems are able to visualize the target proteins.
+
 
 **Materials**
 
@@ -1122,17 +1104,76 @@ the two pictures\!
  {{% /accordion %}}
 
 
+{{% accordion id="ex22" title="Transfection of 293T cells" %}}
 
+**Transfection of 293T cells**
+---
 
+*Why did we choose this method?*
 
+To insert our DNA of interest within our plasmids into eukaryotic cells, transfection was
+performed with calcium-phosphate (calcium-phosphate transfection) and lipofectamine (lipofection).
 
+**Conduction:**
 
+**Calcium-phosphate transfection**
 
+Day 0: Seed 4x10<sup>6</sup> HEK 293T cells in 10ml medium on a 10cm
+dish
 
+Day 1: One hour prior to transfection, change the medium (+8ml medium)
 
+Plasmid should be diluted to a concentration od 1µg/µl in TE buffer
 
+**Perpare two  mixes:**
 
+A) 1 ml of 2x HBS in a 15 ml Falcon;
 
+B)  DNA Mix: 
 
+| Water             | 860 µl          |
+| ----------------- | --------------- |
+| Plasmid           | 20 µl (1 µg/µl) |
+| 2,5 M CaCl2       | 100 µl          |
+| 25 mM Chloroquine | 20 µl           |
 
+  - Carefully apply the DNA mix to the 2x HBS over the time of 1 min,
+    while constantly blowing air into the HBS with a Pipette boy
 
+  - Vortex the resulting mix thorougly and apply it dropwise to the
+    cells
+
+  - Change medium 6-10 hours after transfection (+10ml medium)
+
+Day 2: Change medium and collect the old medium
+
+Day 3: Collect supernatant
+
+Day 4: Collect supernatant
+
+  - For day 2-4 the harvest should be centrifuged and the remaining
+    supernatant should be filtered through 0.22 µm filter.
+
+**Lipofection:**
+
+Day 0: Seed 4x10^6 HEK 293T cells in 10ml medium on a 10cm dish.
+
+Day 1: Medium change 1 hour before transfection
+
+  - Preparation of following solutions
+    
+      - A: 500µl pure medium with 2µg DNA
+    
+      - B: 500µl pure medium with 4µl genjet (twice the amount of DNA)
+
+  - Mixing and incubation for 10 minutes at room temperature
+
+  - Add the solution dropwise to the cells
+
+Day 3: Harvesting of the cells
+
+  - Centrifugation at 250rpm for 5 min.
+
+  - Filtering through
+
+{{% /accordion %}}

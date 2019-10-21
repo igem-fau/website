@@ -10,5 +10,5 @@ responsible: Wet Lab
 helped: gave a talk at the Collaboration MeetUp
 
 # Image
-image: /thomas-winkler.jpg
+image: /winkler.jpg
 ---

@@ -16,8 +16,8 @@ The Felix-Burda foundation deals with these problems, therefore we decided to ge
 A well-known fact is that an unhealthy lifestyle, like the consumption of fast food and cigarettes, promotes the formation of cancer. 
 Since the foundation was founded and started with their informational campaign, the number of incidence of colorectal cancer decreased. 
 Their campaign included the creation of the colorectal cancer month in May, which engages other organizations like hospitals, health organizations and doctors in general to inform their patients about the risks and possible preventions of cancer. 
-Another project is called “Nationaler Krebsplan” in which they are working together with the ministry of health to develop further early diagnosis of colorectal cancer. 
-Additionally they award scientists, researching for new therapies and treatments for colorectal cancer, with a special price, the so-called “Ehren-Felix”.
+Another project is called "Nationaler Krebsplan" in which they are working together with the ministry of health to develop further early diagnosis of colorectal cancer. 
+Additionally they award scientists, researching for new therapies and treatments for colorectal cancer, with a special price, the so-called "Ehren-Felix".
 
 {{< rawhtml >}}
 <img class="rounded-lg mx-auto shadow-md my-8 hover:shadow-lg" style="width: 500px !important;" src="/human-practices/images/peipp.jpg" />
@@ -52,11 +52,11 @@ Prof. Winkler also gave our team the possibility to work in his laboratory and w
 
 We also aimed to bring the relatively new field of bispecific antibodies as a potential curatives for to date hard to treat diseases into public. 
 Therefore, we got the chance to participate at the Day of Immunology (DOI) with our own information booth, where passerby could inform themselves about our project and discuss it with us. 
-Also the “Lange Nacht der Wissenschaften” [Human Practice](https://2019.igem.org/Team:FAU_Erlangen/Human_Practices) gave us the opportunity to get into contact with people not involved in the scientific field. 
+Also the "Lange Nacht der Wissenschaften" [Human Practice](https://2019.igem.org/Team:FAU_Erlangen/Human_Practices) gave us the opportunity to get into contact with people not involved in the scientific field. 
 In both occasions we received incredible feedback and support for our project, really supporting the feeling that our project has an impact. 
 Albeit the fact, that those people did not necessarily have a background in molecular biology talking to these people was really instructive and gave us personally the feeling that our project is worth working on. 
 While all the discussions were helpful on their own, through the DOI we also got in contact with another expert in the field of immunology, Prof. Jäck. 
-He engaged into a very interesting discussion and expressed his support, as he thought our project to be an excellent approach for targeting colorectal cancer and potentially other diseases with our “plug and play” system. 
+He engaged into a very interesting discussion and expressed his support, as he thought our project to be an excellent approach for targeting colorectal cancer and potentially other diseases with our "plug and play" system. 
 
 # Day of Immunology
 
@@ -98,9 +98,9 @@ Additionally we presented posters explaining the different immune cells of our b
 
 Cancer is one of the most common causes of death. Nevertheless people surprisingly know  little about cancer therapy and which behaviors abet cancer or are helpful to avoid cancer. To educate the visitors in an entertaining manner we created a card game. For us it was important that the card game is easy to understand, appealing for people of all ages and that the playing time is short enough, so it can be used in different scenarios.
 
-The card game consists of four different card types: different cancer types, different treatment options and so called„additional cards“ each, which describe the behaviors and either help the cancer or the treatment. As in real life the different treatments  vary in their strength towards the respective cancer types. To optimize the learning effect, we have short information sentences at the bottom of every card.
+The card game consists of four different card types: different cancer types, different treatment options and so called„additional cards" each, which describe the behaviors and either help the cancer or the treatment. As in real life the different treatments  vary in their strength towards the respective cancer types. To optimize the learning effect, we have short information sentences at the bottom of every card.
 
-At the beginning of the game the person who plays „the cancer“ pulls two „cancer cards“ and three „additional cards“ for the cancer, the other player pulls two „treatment cars“ and three „additional cards“ for the treatment. The „cancer“ player then decides for one cancer type to attack with and the other person has to pick the treatment fighting this specific cancer the best. With the „additional cards“ like „smoking“, „overweight“, „endurance sports“ or „precautionary investigations“ the cancer and the treatment get stronger. In the end the person who was stronger over all rounds, wins.
+At the beginning of the game the person who plays „the cancer" pulls two „cancer cards" and three „additional cards" for the cancer, the other player pulls two „treatment cars" and three „additional cards" for the treatment. The „cancer" player then decides for one cancer type to attack with and the other person has to pick the treatment fighting this specific cancer the best. With the „additional cards" like „smoking", „overweight", „endurance sports" or „precautionary investigations" the cancer and the treatment get stronger. In the end the person who was stronger over all rounds, wins.
 
 {{< rawhtml >}}
 <img class="rounded-lg text-center shadow-md mx-auto my-8 hover:shadow-lg" style="width: 700px !important;" src="/human-practices/images/Card Game 001.jpeg" />
@@ -109,7 +109,7 @@ At the beginning of the game the person who plays „the cancer“ pulls two „
 ## Escape Room
 
 During the Long Night of Sciences we additionally hosted an exciting time in our self-planned escape room. 
-Groups of 5-7 people were “locked up” for 20 minutes and needed to manage three different tasks to escape. The whole game aimed to make the participants playfully explore our topic by solving the tasks. 
+Groups of 5-7 people were "locked up" for 20 minutes and needed to manage three different tasks to escape. The whole game aimed to make the participants playfully explore our topic by solving the tasks. 
 
 To solve the first puzzle they had to count and sort laboratory material. 
 From this a numerical code was generated which opened a black box containing further materials, notes and documents to solve the second puzzle. 

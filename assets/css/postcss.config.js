@@ -10,16 +10,6 @@ module.exports = {
       path: ["assets/css"],
     }), 
     require('tailwindcss'),
-    require('@fullhuman/postcss-purgecss')({
-      content: ['layouts/**/*.html'],
-      extractors: [
-      {
-        extractor: TailwindExtractor,
-        extensions: ['html']
-      }], 
-      fontFace: false,
-      whitelist: ['class1', 'class2']
-    }),    
     require('autoprefixer')({
       grid: true,
       browsers: ['>1%']
