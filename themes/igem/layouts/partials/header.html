@@ -68,10 +68,6 @@
         height: 39px;
     }
 
-    .social-bar ul {
-        list-style: armenian;
-    }
-
     .facebook {
         background: url('/images/facebook.svg');
         background-size: 39px 39px;
@@ -135,7 +131,7 @@
 
     header ul li,
     .sticky-header ul li {
-        /*width: 153px;*/
+        width: 140px;
         font-size: 0.8rem;
         margin: 0.1rem;
     }
@@ -147,12 +143,11 @@
         display: none;
 
         /*min-width: 5rem;*/
-        /*width: 153px;*/
+        width: 140px;
         /*position: absolute;*/
         transition: all 0.5s ease;
         margin-top: 1rem;
         left: 0;
-        V
     }
 
     header ul li:hover>ul,
@@ -175,6 +170,7 @@
         font-size: 0.7rem;
         margin: -1rem;
         text-shadow: none;
+        width: 140px;
         /*  margin: 1rem 0.5rem 1rem -0.5rem;
   padding: 0.5rem;*/
     }
@@ -186,7 +182,6 @@
         margin-left: -0.6rem;
         margin-right: -0.6rem;
         padding: 0.6rem;
-        width: 100%;
         border: 1px solid transparent;
     }
 
@@ -207,7 +202,52 @@
         border-radius: 6px;
     }
 
-    .has-dropdown::after {
+    #mobile-navigation {
+        position: fixed;
+        right: 0 !important;
+        top: 0;
+        margin: 0;
+        background: rgba(255, 255, 255, 0.8);
+        color: black !important;
+        box-shadow: -10px 0 -20px rgba(2,10,50,1);
+        height: 100vh;
+        z-index: 9001;
+
+        transition: all 0.1s ease-in-out;
+        overflow: scroll;
+    }
+
+    #mobile-navigation ul {
+        display: block;
+        width: 200px;
+    }
+
+    #mobile-navigation li {
+        display: block !important;
+        padding: 1rem;
+        margin: 5px 0;
+        height: 39px;
+        font-size: 10px;
+        width: 100%;
+        color: black !important;
+    }
+
+    #mobile-navigation li a {
+        display: block;
+        color: #737373;
+        margin-left: -0.6rem;
+        margin-right: -0.6rem;
+        padding: 0.6rem;
+        border: 1px solid transparent;
+    }
+
+    #mobile-navigation li a:hover {
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /*.has-dropdown::after {
         display: inline-block;
         content: ' ';
         margin-left: 0.3rem;
@@ -215,14 +255,14 @@
         text-shadow: 0px 0px 0px transparent;
         width: 12px;
         height: 9px;
-    }
+    }*/
 
     .dropdown-item:hover,
     .dropdown-item:focus,
     .dropdown-item:focus-within {
         background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0.22);
-        /*width: 153px;*/
+        width: 140px;
         color: #2D4459;
     }
 
@@ -260,12 +300,11 @@
     }
 </style>
 
-
 <header style="background: url('/images/background-{{ if (isset .Params "color") }}{{ .Params.color }}{{ else }}blue{{ end }}.svg') no-repeat; min-height: 1157px; background-size: 100vw">
-    <div class="mx-16 pt-8 w-full">
+    <div class="mx- pt-6 w-full">
 
         <!-- Logo -->
-        <div id="logo" class="inline-block align-middle mt-6">
+        <div id="logo" class="inline-block align-middle ml-6 mt-6">
             <svg width="180px" height="123px" viewBox="0 0 210 143" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
@@ -382,10 +421,10 @@
             </svg>
         </div>
 
-        <nav class="md:hidden lg:inline-block align-middle" role="navigation">
+        <nav class="hidden xl:inline-block align-middle" role="navigation">
 
             <ul>
-                <li class="dropdown-item w-32">
+                <li class="dropdown-item">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Team</a>
                     <ul class="dropdown w-32" aria-label="submenu">
                         <li><a href="{{ ref . "/team-members" }}">Team Members</a></li>
@@ -422,8 +461,8 @@
 
                 <li class="dropdown-item"><a href="{{ ref . "/safety" }}">Safety</a></li>
 
-                <li class="dropdown-item">
-                    <a href="#" class="has-dropdown" aria-haspopup="true">Human Practices</a>
+                <li class="dropdown-item -mt-0">
+                    <a href="#" class="has-dropdown" aria-haspopup="true"><p class="inline-block -mt-2">Human<br />Practices</p></a>
                     <ul class="dropdown" aria-label="submenu">
                         <li><a href="{{ ref . "/human-practices/human-practices" }}">Human Practices</a></li>
                         <li><a href="{{ ref . "/human-practices/education-engagement" }}">Education &amp; Education</a></li>
@@ -456,11 +495,70 @@
 
 
                 <li class="mx-8 inline-block fancy-btn-blue">
-                    <a href="#" class="btn-arrow inline-block text-white">Judging Form</a></li>
+                    <a href="https://igem.org/2019_Judging_Form?team=FAU_Erlangen" target="_blank" class="btn-arrow inline-block text-white" style="width: 150px !important">Judging Form</a>
+                </li>
 
             </ul>
-
         </nav>
+
+        <script>
+        function toggleMobileNavigation() {
+            var isClosed = $("#mobile-navigation").hasClass("navigation-hidden");
+
+            if (isClosed) {
+                $("#mobile-navigation").removeClass('navigation-hidden');
+
+                /*$('body').click(function (e) {
+                    toggleMobileNavigation();
+                });*/
+            } else {
+                $("#mobile-navigation").addClass('navigation-hidden');
+                
+                //$('body').off('click');
+            }
+        }
+
+        </script>
+
+        <a id="toggleBtn" class="absolute top-0 text-white w-3 h-3 p-5 right-0 top-0 m-5" onclick="toggleMobileNavigation()" style="text-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index: 9010;"><i class="fas fa-bars"></i></a>
+
+        <div id="mobile-navigation" class="block xl:hidden navigation-hidden float-right mr-8">
+                <ul>
+                    <li><a href="{{ ref . "/team-members" }}">Team Members</a></li>
+                    <li><a href="{{ ref . "/collaborations" }}">Collaborations</a></li>
+                    <li><a href="{{ ref . "/attributions" }}">Attributions</a></li>
+                    <li><a href="{{ ref . "/safety" }}">Safety</a></li>
+                    <li><a href="{{ ref . "/human-practices/human-practices" }}">Human Practices</a></li>
+                    {{ if (fileExists "content/awards/model.md" ) -}}
+                    <li><a href="{{ ref . "/awards/model.md" }}">Model</a></li>
+                    {{- end }}
+
+                    <li class="inline-block font-bold pt-12 uppercase text-gray-900">Project</li>
+                    <li><a href="{{ ref . "/project/description" }}">Description</a></li>
+                    <li><a href="{{ ref . "/project/design" }}">Design</a></li>
+                    <li><a href="{{ ref . "/project/experiments" }}">Experiments</a></li>
+                    <li><a href="{{ ref . "/labjournal-entries" }}">Notebook</a></li>
+                    <li><a href="{{ ref . "/project/contribution" }}">Contribution</a></li>
+                    <li><a href="{{ ref . "/project/results" }}">Results</a></li>
+                    {{ if (fileExists "content/project/demonstrate.md" ) -}}
+                    <li><a href="{{ ref . "/project/demonstrate" }}">Demonstrate</a></li>
+                    {{ end }}
+                    {{ if (fileExists "content/project/improve.md" ) -}}
+                    <li><a href="{{ ref . "/project/improve" }}">Improve</a></li>
+                    {{- end }}
+
+                    <li class="inline-block font-bold pt-12 uppercase text-gray-900">Parts</li>
+                    <li><a href="{{ ref . "/parts/overview" }}">Parts Overview</a></li>
+                    <li><a href="{{ ref . "/parts/basic" }}">Basic Parts</a></li>
+                    <li><a href="{{ ref . "/parts/composite" }}">Composite Parts</a></li>
+                    <li><a href="{{ ref . "/parts/collection" }}">Parts Collection</a></li>
+        
+                    <li>
+                        <a href="https://igem.org/2019_Judging_Form?team=FAU_Erlangen">Judging Form</a>
+                    </li>
+        
+                </ul>
+        </div>
 
         <div class="social-bar xl:block lg:hidden">
             <ul>
@@ -485,8 +583,8 @@
 
 </header>
 
-<div class="sticky-header sticky-off sticky top-0 z-50 shadow-xl" style="background: url('/images/sticky-background-{{ if (isset .Params "color") }}{{ .Params.color }}{{ else }}blue{{ end }}.svg'); height: 80px;">
-           <div id="logo" class="inline-block mt-2 ml-12">
+<div class="sm:hidden xs:hidden md:hidden lg:hidden sticky-header sticky-off sticky top-0 z-50 shadow-xl" style="background: url('/images/sticky-background-{{ if (isset .Params "color") }}{{ .Params.color }}{{ else }}blue{{ end }}.svg'); height: 80px;">
+           <div id="logo" class="hidden xl:inline-block mt-2 ml-12">
             <svg height="65px" viewBox="0 0 210 143" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
@@ -605,7 +703,6 @@
         </div>       
         
         <nav class="md:hidden lg:inline-block align-middle" role="navigation">
-
             <ul>
                 <li class="dropdown-item w-32">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Team</a>
@@ -678,7 +775,7 @@
 
 
                 <li class="ml-12 inline-block fancy-btn-blue">
-                    <a href="#" class="btn-arrow inline-block text-white">Judging Form</a></li>
+                    <a href="https://igem.org/2019_Judging_Form?team=FAU_Erlangen" class="btn-arrow inline-block text-white">Judging Form</a></li>
 
             </ul>
 
@@ -687,4 +784,4 @@
 
 </div>
 
-<div id="main" class="bg-white z-50">
+<div id="main" class="bg-white z-50" style="margin-top: -100px;">

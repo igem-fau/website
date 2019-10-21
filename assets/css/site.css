@@ -3,11 +3,11 @@
  *****************/
 
 h1 {
-    @apply font-bold text-3xl text-gray-600 my-6;
+    @apply font-bold text-3xl text-gray-600 my-12;
 }
 
 h2 {
-    @apply font-bold text-lg text-gray-500 my-4;
+    @apply font-bold text-lg text-gray-500 my-8;
 }
 
 #main p {
@@ -57,12 +57,23 @@ input[name='panel']:checked ~ .accordion__content {
 }
 
 .floating-box {
-    @apply shadow-lg rounded-lg p-4 my-6;
-    transition: all 0.4s linear;
+    @apply shadow-xl rounded-lg p-4 my-6 z-40;
+    transition: all 0.2s linear;
+
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
 }
 
 .floating-box:hover {
-    @apply shadow-xl p-6 my-4 -mx-2;
+    @apply shadow-2xl z-40; /*p-6 my-4 -mx-2;*/
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .floating-toc {
@@ -76,13 +87,15 @@ input[name='panel']:checked ~ .accordion__content {
     @apply p-2;
 }
 
-.labjournal ul {
+.labjournal ul,
+.accordion ul {
     list-style: disc;
 
     @apply p-2 m-2;
 }
 
-.labjournal ol {
+.labjournal ol,
+.accordion ol {
     list-style: decimal;
     @apply p-2 m-2;
 }
@@ -147,4 +160,8 @@ tbody tr:hover {
 .sticky-on {
     top: 0;
     opacity: 1; 
+}
+
+.navigation-hidden {
+    margin-right: -200px !important;
 }

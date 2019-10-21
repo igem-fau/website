@@ -13,3 +13,5 @@ $(window).on('scroll', function(event) {
         $('.sticky-header').removeClass("sticky-on").addClass("sticky-off");
     }
 });
+
+

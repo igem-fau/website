@@ -1,0 +1,84 @@
+<div id="parts-registry" class="floating-box">
+
+<script>
+var partsRegistry = null;
+
+$.getJSON('https://raw.githubusercontent.com/igem-fau/allerGEM/master/final/parts_registry.json', function(data) {
+    partsRegistry = data;
+});
+
+function getPart(id) {
+    if (partsRegistry == null) return null;
+
+    return partsRegistry[id];
+}
+
+function resetPartsResult() {
+    var status = document.getElementById("parts-result");
+    status.textContent = "";
+}
+
+function checkPart() {
+    var entry = document.getElementById("part-id").value;
+
+    var prediction = getPart(entry);
+
+    if (prediction == null) {
+        // Error message
+        var x = document.getElementById("parts-result");
+        var e = document.getElementById("error").outerHTML;
+        x.innerHTML = e.replace("{message}", "The part was not found in our results. Sorry!");
+    } else {
+        var x = document.getElementById("parts-result");
+        if (prediction["is_allergen"]) {
+            var a = document.getElementById("allergen").outerHTML;
+            x.innerHTML = a.replace("{allergenity}", prediction["output"]).replace("{certainty}", (prediction["certainty"] * 100).toFixed(1));
+        } else {
+            var a = document.getElementById("non-allergen").outerHTML;
+            x.innerHTML = a.replace("{allergenity}", prediction["output"]).replace("{certainty}", (prediction["certainty"] * 100).toFixed(1));
+        }
+    }
+}
+
+</script>
+
+<h2 class="mb-4">Check the parts library</h2>
+
+<div class="hidden">
+            <div id="allergen" class="flex text-red-600">
+                <img class="float: left; margin-right: 2rem;" src="/images/allergen.svg" />
+                <div class="mt-5">
+                <div class="font-bold">Allergen</div>
+                <div class="text-sm">Certainty: {certainty} %</div>
+                </div>
+            </div>
+            <div id="non-allergen" class="flex text-green-600">
+                <img class="float: left; margin-right: 2rem;" src="/images/no-allergen.svg" />
+                <div class="mt-5">
+                <div class="font-bold">No allergen</div>
+                <div class="text-sm">Certainty: {certainty} %</div>
+                </div>
+            </div>
+            <div id="crunching" class="text-blue-600 font-bold mt-8">Crunching numbers ...</div>
+            <div id="error" class="text-red-600 font-bold mt-8">Error: {message}</div>
+</div>
+
+<input id="part-id" placeholder="BBa_" class="bg-gray-100 font-mono outline-none border-transparent w-full p-4 rounded-lg my-2" onkeyup="resetPartsResult()" onchange="resetPartsResult()" />
+
+<div style="height: 6rem">
+<div class="float-left mt-4">
+<button class="outline-none fancy-btn-blue px-6 py-2 text-white" onclick="checkPart()">Show prediction</button>
+</div>
+
+<div class="float-left ml-8" id="parts-result"></div>
+
+<div class="clearfix"></div>
+</div>
+
+<p class="text-xs my-4 text-gray-700">
+The complete FASTA file of the parts library provided by iGEM is unfortunately not updated regularly, as a result 
+not all the parts are contained in our file. For any missing part you can, however, use our network itself on the
+protein sequence.
+</p>
+
+</div>

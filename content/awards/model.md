@@ -75,13 +75,7 @@ for best practices for machine learning projects and together we made sure that 
 Thanks to tensorflowjs, *allerGEM* can also be run in the browser directly, which is why we make it available to everyone
 directly on our wiki page. In the following box you can check your protein sequences for allergenicity. 
 
-{{< floating-box id="allerGEM" title="allerGEM" >}}
-
-<textarea id="sequence" onchange="resetStatus()" onkeyup="resetStatus()" class="bg-gray-100 font-mono outline-none border-transparent w-full p-4 rounded-lg my-2 h-56"></textarea>
-
-<button class="outline-none fancy-btn-blue px-6 py-2 text-white" onclick="makePrediction()">Predict</button>
-
-{{< /floating-box >}}
+{{< allerGEM model="https://raw.githubusercontent.com/igem-fau/allerGEM/master/final/model.json" >}}
 
 ## The Biobrick Parts registry
 
@@ -90,21 +84,7 @@ at hand, we decided that it is useful to run the neural network against the regi
 FASTA collection provided by iGEM and offer a quick access to the results in the following box. 
 It suffices to enter the id of the part to obtain the results from our neural network.
 
-{{< floating-box id="parts-library" title="Parts Library" >}}
-
-<h2 class="mb-4">Check the parts library</h2>
-
-<input id="part" placeholder="BBA_" class="bg-gray-100 font-mono outline-none border-transparent w-full p-4 rounded-lg my-2" />
-
-<button class="outline-none fancy-btn-blue px-6 py-2 text-white" onclick="makePrediction()">Show prediction</button>
-
-<p class="text-xs my-4 text-gray-700">
-The complete FASTA file of the parts library provided by iGEM is unfortunately not updated regularly, as a result 
-not all the parts are contained in our file. For any missing part you can, however, use our network itself on the
-protein sequence.
-</p>
-
-{{< /floating-box >}}
+{{< predict-parts-registry url="https://raw.githubusercontent.com/igem-fau/allerGEM/master/final/parts_registry.json" >}}
 
 ## Conclusion
 

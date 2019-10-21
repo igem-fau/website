@@ -6,7 +6,7 @@ import subprocess
 
 
 def step(title):
-    print("----> {}".format(title))
+    print("----{}".format(title))
 
 def log(s):
     lines = s.splitlines()
@@ -149,7 +149,7 @@ step("Update wiki pages")
 
 
 
-print("====> Website deployed:")
+print("====Website deployed:")
 print("      https://{}.igem.org/Team:{}".format(the_year, the_team))
 
 #get_user_information(session)
