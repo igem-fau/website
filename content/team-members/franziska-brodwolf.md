@@ -1,7 +1,9 @@
 ---
 name: Franziska Brodwolf 
-field: \? 
+field: Life Science Engineering (M. Sc.)
+semester: 2.
 role: Student
+quote: "\"I know that I know nothing.\" - Plato"
 
 # Role
 responsible: Financing 

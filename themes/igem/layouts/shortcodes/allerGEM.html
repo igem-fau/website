@@ -20,7 +20,7 @@
     function markAllergenStatus(allergenity) {
         var status = document.getElementById("status");
         var thresh = 0.5;
-        if (allergenity thresh) {
+        if (allergenity > thresh) {
             var c = (allergenity - thresh) / (1-thresh);
             var a = document.getElementById("allergen").outerHTML;
             status.innerHTML = a.replace("{allergenity}", allergenity).replace("{certainty}", (c * 100).toFixed(1));

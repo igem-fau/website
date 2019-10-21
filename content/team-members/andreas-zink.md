@@ -1,11 +1,13 @@
 ---
 name: Andreas Zink 
-field: Chemistry
+field: Chemistry (B. Sc.)
+semester: 6. 
 role: Student
+quote: "\"\"Yesterday you said tomorrow. Just do it.\" - Nike"
 
 # Role
 responsible: Financing
-helped: Chem Lab
+helped: Chemistry Lab
 
 # Image
 image: /andreas-zink.jpg

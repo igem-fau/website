@@ -1,12 +1,14 @@
 ---
 name: Verena Dietrich 
-field: Physics 
-role: Advisor 
+field: Integrated Life Sciences (M. Sc.)/ Test Engineer
+role: Advisor (until July)
+quote: Interdisciplinary teams are awsome!
+semester: 
 
 # Role
 responsible: Deep Learning 
-helped: something else
-
+helped: Teambuilding
+ 
 # Image
 image: /verena-dietrich.jpg
 ---

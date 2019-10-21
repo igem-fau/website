@@ -1,11 +1,13 @@
 ---
 name: Lisa Vogg 
-field: Integrated Immunology 
+field: Integrated Immunology (M. Sc.)
+semester: 2.
 role: Student
+quote: "Imagination is more important than knowledge"
 
 # Role
 responsible: Wet Lab 
-helped: something else
+helped: project design & research
 
 # Image
 image: /lisa-vogg.jpg

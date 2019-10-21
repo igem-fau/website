@@ -1,34 +1,9 @@
 {{ partial "head.html" . }}
 
-<div class="container mx-auto p-10 min-h-screen">
-
-<h1 class="text-blue">Collaborations</h1>
-{{ $pages := .Data.Pages }}
-
-<div class="floating-toc hidden md:block" style="top: 300px;">
-        <strong class="inline-block mb-5 text-sm">On this page</strong>
-
-        {{ range $pages }}
-        <div class="overflow-hidden flex justify-end w-full items-center">
-            <a class="block text-xs my-1 no-underline flex items-center" href="#{{ .Title | urlize }}">
-                <div class="inline-block text-gray-700 hover:text-gray-800">{{ .Title }}</div>
-            </a>
-        </div>
-        {{ end }}
-</div>
-
-{{ range $pages }}
-
-<div class="my-10 md:w-3/4 w-full">
-    <a id="{{ .Title | urlize }}"></a>
-
-    <h2 class="text-grey-darker mb-5">{{ .Title }}</h2>
-
-    <div class="font-light leading-normal">{{ .Content }}</div>
-</div>
-
-{{ end }}
-
+<div class="container mx-auto my-10 min-h-screen">
+    <p>
+        {{.Content}}
+    </p>
 </div>
 
 {{ partial "footer.html" . }}

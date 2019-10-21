@@ -3,10 +3,14 @@
  *****************/
 
 h1 {
-    @apply font-bold text-3xl text-gray-600 my-12;
+    @apply font-bold text-3xl text-gray-600 my-16;
 }
 
 h2 {
+    @apply font-bold text-xl text-gray-500 my-12;
+}
+
+h3 {
     @apply font-bold text-lg text-gray-500 my-8;
 }
 

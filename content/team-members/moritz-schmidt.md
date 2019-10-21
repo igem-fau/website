@@ -1,11 +1,13 @@
 ---
 name: Moritz Schmidt 
-field: Informatics
+field: Informatics (B. Sc.)
+semester: 2. 
 role: Student
+quote: 
 
 # Role
 responsible: Deep Learning
-helped: something else
+helped: 
 
 # Image
 image: /moritz-schmidt.jpg

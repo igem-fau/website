@@ -19,7 +19,7 @@
         background: url('/images/arrow-right.svg');
         background-repeat: no-repeat;
         background-size: 15px 11px;
-        background-position: 0px 7px;
+        background-position: 0px 4px;
         margin-left: 6px;
         padding-left: 26px;
 
@@ -30,7 +30,7 @@
     }
 
     .btn-arrow:hover {
-        background-position: 3px 7px;
+        background-position: 3px 4px;
     }
 
     /* Social Media */
@@ -247,7 +247,7 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
     }
 
-    /*.has-dropdown::after {
+    .has-dropdown::after {
         display: inline-block;
         content: ' ';
         margin-left: 0.3rem;
@@ -255,7 +255,7 @@
         text-shadow: 0px 0px 0px transparent;
         width: 12px;
         height: 9px;
-    }*/
+    }
 
     .dropdown-item:hover,
     .dropdown-item:focus,
@@ -304,6 +304,7 @@
     <div class="mx- pt-6 w-full">
 
         <!-- Logo -->
+        <a href="https://2019.igem.org/Team:FAU_Erlangen">
         <div id="logo" class="inline-block align-middle ml-6 mt-6">
             <svg width="180px" height="123px" viewBox="0 0 210 143" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -420,6 +421,7 @@
                 </g>
             </svg>
         </div>
+        </a>
 
         <nav class="hidden xl:inline-block align-middle" role="navigation">
 
@@ -427,24 +429,23 @@
                 <li class="dropdown-item">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Team</a>
                     <ul class="dropdown w-32" aria-label="submenu">
-                        <li><a href="{{ ref . "/team-members" }}">Team Members</a></li>
-                        <li><a href="{{ ref . "/collaborations" }}">Collaborations</a></li>
-                        <li><a href="{{ ref . "/attributions" }}">Attributions</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Team">Team Members</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Collaborations">Collaborations</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Attributions">Attributions</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown-item">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Project</a>
                     <ul class="dropdown" aria-label="submenu">
-                        <li><a href="{{ ref . "/project/description" }}">Description</a></li>
-                        <li><a href="{{ ref . "/project/design" }}">Design</a></li>
-                        <li><a href="{{ ref . "/project/experiments" }}">Experiments</a></li>
-                        <li><a href="{{ ref . "/labjournal-entries" }}">Notebook</a></li>
-                        <li><a href="{{ ref . "/project/contribution" }}">Contribution</a></li>
-                        <li><a href="{{ ref . "/project/results" }}">Results</a></li>
-                        <li><a href="{{ ref . "/project/demonstrate" }}">Demonstrate</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Description">Description</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Design">Design</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Experiments">Experiments</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Notebook">Notebook</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Contribution">Contribution</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Results">Results</a></li>
                         {{ if (fileExists "content/project/improve.md" ) -}}
-                        <li><a href="{{ ref . "/project/improve" }}">Improve</a></li>
+                        <li><a href="">Improve</a></li>
                         {{- end }}
                     </ul>
                 </li>
@@ -452,22 +453,25 @@
                 <li class="dropdown-item">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Parts</a>
                     <ul class="dropdown" aria-label="submenu">
-                        <li><a href="#">Parts Overview</a></li>
-                        <li><a href="#">Basic Parts</a></li>
-                        <li><a href="#">Composite Parts</a></li>
-                        <li><a href="#">Parts Collection</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Parts">Parts Overview</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Basic_Part">Basic Parts</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Composite_Part">Composite Parts</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Part_Collection">Parts Collection</a></li>
                     </ul>
                 </li>
 
-                <li class="dropdown-item"><a href="{{ ref . "/safety" }}">Safety</a></li>
+                <li class="dropdown-item"><a href="https://2019.igem.org/Team:FAU_Erlangen/Safety">Safety</a></li>
 
+                <li class="dropdown-item"><a href="https://2019.igem.org/Team:FAU_Erlangen/Human_Practices">Human Practices</a></li>
+
+                {{ if false }}
                 <li class="dropdown-item -mt-0">
                     <a href="#" class="has-dropdown" aria-haspopup="true"><p class="inline-block -mt-2">Human<br />Practices</p></a>
                     <ul class="dropdown" aria-label="submenu">
-                        <li><a href="{{ ref . "/human-practices/human-practices" }}">Human Practices</a></li>
                         <li><a href="{{ ref . "/human-practices/education-engagement" }}">Education &amp; Education</a></li>
                     </ul>
                 </li>
+                {{ end }}
 
                 <li class="dropdown-item">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Awards</a>
@@ -482,7 +486,7 @@
                         <li><a href="{{ ref . "/awards/measurement.md" }}">Measurement</a></li>
                         {{- end }}
                         {{ if (fileExists "content/awards/model.md" ) -}}
-                        <li><a href="{{ ref . "/awards/model.md" }}">Model</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Model">Model</a></li>
                         {{- end }}
                         {{ if (fileExists "content/awards/plant.md" ) -}}
                         <li><a href="{{ ref . "/awards/plant.md" }}">Plant</a></li>
@@ -517,41 +521,34 @@
                 //$('body').off('click');
             }
         }
-
         </script>
 
-        <a id="toggleBtn" class="absolute top-0 text-white w-3 h-3 p-5 right-0 top-0 m-5" onclick="toggleMobileNavigation()" style="text-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index: 9010;"><i class="fas fa-bars"></i></a>
+        <a id="toggleBtn" class="block lg:hidden absolute top-0 text-white w-3 h-3 p-5 right-0 top-0 m-5" onclick="toggleMobileNavigation()" style="text-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index: 9010;"><i class="fas fa-bars"></i></a>
 
         <div id="mobile-navigation" class="block xl:hidden navigation-hidden float-right mr-8">
                 <ul>
-                    <li><a href="{{ ref . "/team-members" }}">Team Members</a></li>
-                    <li><a href="{{ ref . "/collaborations" }}">Collaborations</a></li>
-                    <li><a href="{{ ref . "/attributions" }}">Attributions</a></li>
-                    <li><a href="{{ ref . "/safety" }}">Safety</a></li>
-                    <li><a href="{{ ref . "/human-practices/human-practices" }}">Human Practices</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Team">Team Members</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Collaborations">Collaborations</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Attributions">Attributions</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Safety">Safety</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Human_Practices">Human Practices</a></li>
                     {{ if (fileExists "content/awards/model.md" ) -}}
-                    <li><a href="{{ ref . "/awards/model.md" }}">Model</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Model">Model</a></li>
                     {{- end }}
 
                     <li class="inline-block font-bold pt-12 uppercase text-gray-900">Project</li>
-                    <li><a href="{{ ref . "/project/description" }}">Description</a></li>
-                    <li><a href="{{ ref . "/project/design" }}">Design</a></li>
-                    <li><a href="{{ ref . "/project/experiments" }}">Experiments</a></li>
-                    <li><a href="{{ ref . "/labjournal-entries" }}">Notebook</a></li>
-                    <li><a href="{{ ref . "/project/contribution" }}">Contribution</a></li>
-                    <li><a href="{{ ref . "/project/results" }}">Results</a></li>
-                    {{ if (fileExists "content/project/demonstrate.md" ) -}}
-                    <li><a href="{{ ref . "/project/demonstrate" }}">Demonstrate</a></li>
-                    {{ end }}
-                    {{ if (fileExists "content/project/improve.md" ) -}}
-                    <li><a href="{{ ref . "/project/improve" }}">Improve</a></li>
-                    {{- end }}
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Description">Description</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Design">Design</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Experiments">Experiments</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Notebook">Notebook</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Contribution">Contribution</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Results">Results</a></li>
 
                     <li class="inline-block font-bold pt-12 uppercase text-gray-900">Parts</li>
-                    <li><a href="{{ ref . "/parts/overview" }}">Parts Overview</a></li>
-                    <li><a href="{{ ref . "/parts/basic" }}">Basic Parts</a></li>
-                    <li><a href="{{ ref . "/parts/composite" }}">Composite Parts</a></li>
-                    <li><a href="{{ ref . "/parts/collection" }}">Parts Collection</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Parts">Parts Overview</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Basic_Part">Basic Parts</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Composite_Part">Composite Parts</a></li>
+                    <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Part_Collection">Parts Collection</a></li>
         
                     <li>
                         <a href="https://igem.org/2019_Judging_Form?team=FAU_Erlangen">Judging Form</a>
@@ -584,6 +581,8 @@
 </header>
 
 <div class="sm:hidden xs:hidden md:hidden lg:hidden sticky-header sticky-off sticky top-0 z-50 shadow-xl" style="background: url('/images/sticky-background-{{ if (isset .Params "color") }}{{ .Params.color }}{{ else }}blue{{ end }}.svg'); height: 80px;">
+
+        <a href="https://2019.igem.org/Team:FAU_Erlangen">
            <div id="logo" class="hidden xl:inline-block mt-2 ml-12">
             <svg height="65px" viewBox="0 0 210 143" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -701,52 +700,45 @@
             </svg>
         
         </div>       
+        </a>
         
         <nav class="md:hidden lg:inline-block align-middle" role="navigation">
             <ul>
                 <li class="dropdown-item w-32">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Team</a>
                     <ul class="dropdown w-32" aria-label="submenu">
-                        <li><a href="{{ ref . "/team-members" }}">Team Members</a></li>
-                        <li><a href="{{ ref . "/collaborations" }}">Collaborations</a></li>
-                        <li><a href="{{ ref . "/attributions" }}">Attributions</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Team">Team Members</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Collaborations">Collaborations</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Attributions">Attributions</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown-item">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Project</a>
                     <ul class="dropdown" aria-label="submenu">
-                        <li><a href="{{ ref . "/project/description" }}">Description</a></li>
-                        <li><a href="{{ ref . "/project/design" }}">Design</a></li>
-                        <li><a href="{{ ref . "/project/experiments" }}">Experiments</a></li>
-                        <li><a href="{{ ref . "/labjournal-entries" }}">Notebook</a></li>
-                        <li><a href="{{ ref . "/project/contribution" }}">Contribution</a></li>
-                        <li><a href="{{ ref . "/project/results" }}">Results</a></li>
-                        <li><a href="{{ ref . "/project/demonstrate" }}">Demonstrate</a></li>
-                        {{ if (fileExists "content/project/improve.md" ) -}}
-                        <li><a href="{{ ref . "/project/improve" }}">Improve</a></li>
-                        {{- end }}
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Description">Description</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Design">Design</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Experiments">Experiments</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Notebook">Notebook</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Contribution">Contribution</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Results">Results</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown-item">
                     <a href="#" class="has-dropdown" aria-haspopup="true">Parts</a>
                     <ul class="dropdown" aria-label="submenu">
-                        <li><a href="#">Parts Overview</a></li>
-                        <li><a href="#">Basic Parts</a></li>
-                        <li><a href="#">Composite Parts</a></li>
-                        <li><a href="#">Parts Collection</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Parts">Parts Overview</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Basic_Part">Basic Parts</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Composite_Part">Composite Parts</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Part_Collection">Parts Collection</a></li>
                     </ul>
                 </li>
 
-                <li class="dropdown-item"><a href="{{ ref . "/safety" }}">Safety</a></li>
+                <li class="dropdown-item"><a href="">Safety</a></li>
 
                 <li class="dropdown-item">
-                    <a href="#" class="has-dropdown" aria-haspopup="true">Human Practices</a>
-                    <ul class="dropdown" aria-label="submenu">
-                        <li><a href="{{ ref . "/human-practices/human-practices" }}">Human Practices</a></li>
-                        <li><a href="{{ ref . "/human-practices/education-engagement" }}">Education &amp; Education</a></li>
-                    </ul>
+                    <a href="https://2019.igem.org/Team:FAU_Erlangen/Human_Practices">Human Practices</a>
                 </li>
 
                 <li class="dropdown-item">
@@ -762,7 +754,7 @@
                         <li><a href="#">Measurement</a></li>
                         {{- end }}
                         {{ if (fileExists "content/awards/model.md" ) -}}
-                        <li><a href="#">Model</a></li>
+                        <li><a href="https://2019.igem.org/Team:FAU_Erlangen/Model">Model</a></li>
                         {{- end }}
                         {{ if (fileExists "content/awards/plant.md" ) -}}
                         <li><a href="#">Plant</a></li>

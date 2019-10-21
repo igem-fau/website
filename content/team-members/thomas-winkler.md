@@ -1,11 +1,13 @@
 ---
 name: Prof. Dr. Thomas Winkler 
-field: Immunology 
+field: Genetics
 role: PI
+quote: 
+semester: 
 
 # Role
-responsible: PI 
-helped: 
+responsible: Wet Lab
+helped: gave a talk at the Collaboration MeetUp
 
 # Image
 image: /thomas-winkler.jpg

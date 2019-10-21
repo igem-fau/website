@@ -17,7 +17,7 @@ Nikolaus-Fiebiger-Center of Molecular Medicine, which falls under the biosafety 
 level is of moderate safety risk and was sufficient for all our experiments.
 
 During our project different chassis were used. Most of the chassis have biosafety level 1
-and pose no risk if they escaped, including Escherichia coli DH5/ BL21 (DE3)/ BL21 (DE3)
+and pose no risk if they escaped, including Escherichia coli DH5{{< rawhtml >}}&alpha;{{< /rawhtml >}}/ BL21 (DE3)/ BL21 (DE3)
 Star/ BL21 (DE3) Tuner, CD8+-T-cells and CHO-S cells. They are non-pathogenic and cannot
 survive outside of lab conditions. During our project, two chassis of biosafety level 2 were
 used, HEK 293T cells and Caco-2 cells. These cells also cannot persist outside the lab and are

@@ -1,7 +1,9 @@
----
+﻿---
 name: Evelyn Schläfke 
-field: Biology 
+field: Biology (B. Sc.)
+semester: 4.
 role: Student
+quote: "Hakuna Matata!!!"
 
 # Role
 responsible: Human Practice 

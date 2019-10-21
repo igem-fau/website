@@ -1,11 +1,13 @@
 ---
 name: Florian Wolz 
-field: Physics 
-role: Instructor 
+field: detector physicist
+role: Instructor
+quote: 
+semester: 
 
 # Role
 responsible: Deep Learning 
-helped: something else
+helped: Website, Modeling, Design, Teambuilding 
 
 # Image
 image: /florian-wolz.jpg

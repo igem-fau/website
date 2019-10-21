@@ -1,11 +1,13 @@
 ---
 name: Eva Neugebauer 
-field: Integrated Immunology
+field: Integrated Immunology (M. Sc.)
+semester: 2.
 role: Student
+quote: "What do you call a sad cup of coffee? - Depresso"
 
 # Role
 responsible: Wet Lab
-helped: something else
+helped: 
 
 # Image
 image: /eva-neugebauer.jpg

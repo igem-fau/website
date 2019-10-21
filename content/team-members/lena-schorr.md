@@ -1,11 +1,13 @@
 ---
 name: Lena Schorr 
-field: Integrated Immunology 
+field: Integrated Immunology (M. Sc.)
+semester: 2.
 role: Student
+quote: "eat, sleep, lab - repeat"
 
 # Role
 responsible: Wet Lab 
-helped: something else
+helped: 
 
 # Image
 image: /lena-schorr.jpg
