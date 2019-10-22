@@ -10,5 +10,4 @@ responsible: Financing
 helped: Chemistry Lab
 
 # Image
-image: /andreas-zink.jpg
 ---

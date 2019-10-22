@@ -3,7 +3,7 @@ name: Linkai Zhang
 field: Integrated Life Science (B. Sc.)
 semester: 6.
 role: Student
-quote:
+quote: Sleep is for the weak
 
 # Role
 responsible: Deep Learning

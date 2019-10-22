@@ -10,5 +10,4 @@ responsible: Human Practice
 helped: 
 
 # Image
-image: /manuel-blank.jpg
 ---

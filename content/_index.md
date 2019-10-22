@@ -1,5 +1,9 @@
 ---
-title: The title of the project
+image: /project/images/header.svg
 ---
 
-## Some subtitle
+{{% rawhtml %}}
+
+<img src="/project/images/workflow.svg">
+
+{{% /rawhtml %}}

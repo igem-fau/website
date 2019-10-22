@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2855px" height="3125px" viewBox="0 0 2855 3125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="45.4311977%" x2="101.814026%" y2="54.5688023%" id="linearGradient-1">
+            <stop stop-color="#9DEB33" offset="0%"></stop>
+            <stop stop-color="#25F3DF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="569" height="172" rx="20"></rect>
+        <filter x="-3.3%" y="-11.0%" width="110.2%" height="133.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="46.9730758%" x2="121.685048%" y2="54.0215107%" id="linearGradient-4">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0" y="0" width="569" height="140" rx="20"></rect>
+        <filter x="-3.3%" y="-13.6%" width="110.2%" height="141.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="569" height="140" rx="20"></rect>
+        <filter x="-3.3%" y="-13.6%" width="110.2%" height="141.4%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="48.2647694%" x2="121.685048%" y2="52.3053926%" id="linearGradient-9">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-10" x="0" y="0" width="569" height="106" rx="20"></rect>
+        <filter x="-3.3%" y="-17.9%" width="110.2%" height="154.7%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="35.0728026%" x2="121.685048%" y2="69.8319748%" id="linearGradient-12">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-13" x="0" y="0" width="194" height="106" rx="20"></rect>
+        <filter x="-9.8%" y="-17.9%" width="129.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-15" x="0" y="0" width="194" height="106" rx="20"></rect>
+        <filter x="-9.8%" y="-17.9%" width="129.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="44.1915406%" x2="121.685048%" y2="57.7170026%" id="linearGradient-17">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-18" x="0" y="0" width="311" height="106" rx="20"></rect>
+        <filter x="-6.1%" y="-17.9%" width="118.6%" height="154.7%" filterUnits="objectBoundingBox" id="filter-19">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-20" x="0" y="0" width="194" height="106" rx="20"></rect>
+        <filter x="-9.8%" y="-17.9%" width="129.9%" height="154.7%" filterUnits="objectBoundingBox" id="filter-21">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="45.6157508%" x2="121.685048%" y2="55.8248255%" id="linearGradient-22">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-23" x="0" y="0" width="412" height="122" rx="20"></rect>
+        <filter x="-4.6%" y="-15.6%" width="114.1%" height="147.5%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="47.8214252%" x2="121.685048%" y2="52.8944107%" id="linearGradient-25">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-26" x="0" y="0" width="412" height="86" rx="20"></rect>
+        <filter x="-4.6%" y="-22.1%" width="114.1%" height="167.4%" filterUnits="objectBoundingBox" id="filter-27">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-28" x="0" y="0" width="412" height="122" rx="20"></rect>
+        <filter x="-4.6%" y="-15.6%" width="114.1%" height="147.5%" filterUnits="objectBoundingBox" id="filter-29">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-30" x="0" y="0" width="412" height="86" rx="20"></rect>
+        <filter x="-4.6%" y="-22.1%" width="114.1%" height="167.4%" filterUnits="objectBoundingBox" id="filter-31">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="44.1438284%" x2="121.685048%" y2="57.7803921%" id="linearGradient-32">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-33" x="0" y="0" width="412" height="141" rx="20"></rect>
+        <filter x="-4.6%" y="-13.5%" width="114.1%" height="141.1%" filterUnits="objectBoundingBox" id="filter-34">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-35" x="0" y="0" width="412" height="141" rx="20"></rect>
+        <filter x="-4.6%" y="-13.5%" width="114.1%" height="141.1%" filterUnits="objectBoundingBox" id="filter-36">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="47.0285389%" x2="121.685048%" y2="53.9478236%" id="linearGradient-37">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-38" x="0" y="0" width="402" height="98" rx="20"></rect>
+        <filter x="-4.7%" y="-19.4%" width="114.4%" height="159.2%" filterUnits="objectBoundingBox" id="filter-39">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-40" x="0" y="0" width="402" height="98" rx="20"></rect>
+        <filter x="-4.7%" y="-19.4%" width="114.4%" height="159.2%" filterUnits="objectBoundingBox" id="filter-41">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="47.367738%" x2="121.685048%" y2="53.4971705%" id="linearGradient-42">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-43" x="0" y="0" width="523" height="120" rx="20"></rect>
+        <filter x="-3.6%" y="-15.8%" width="111.1%" height="148.3%" filterUnits="objectBoundingBox" id="filter-44">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="45.0916565%" x2="121.685048%" y2="56.5211267%" id="linearGradient-45">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-46" x="0" y="0" width="383" height="120" rx="20"></rect>
+        <filter x="-5.0%" y="-15.8%" width="115.1%" height="148.3%" filterUnits="objectBoundingBox" id="filter-47">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="40.8815744%" x2="121.685048%" y2="62.1145572%" id="linearGradient-48">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-49" x="0" y="0" width="281" height="120" rx="20"></rect>
+        <filter x="-6.8%" y="-15.8%" width="120.6%" height="148.3%" filterUnits="objectBoundingBox" id="filter-50">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-51" x="0" y="0" width="402" height="98" rx="20"></rect>
+        <filter x="-4.7%" y="-19.4%" width="114.4%" height="159.2%" filterUnits="objectBoundingBox" id="filter-52">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-53" x="0" y="0" width="402" height="98" rx="20"></rect>
+        <filter x="-4.7%" y="-19.4%" width="114.4%" height="159.2%" filterUnits="objectBoundingBox" id="filter-54">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="45.36862%" x2="121.685048%" y2="56.1531585%" id="linearGradient-55">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-56" x="0" y="0" width="322" height="98" rx="20"></rect>
+        <filter x="-5.9%" y="-19.4%" width="118.0%" height="159.2%" filterUnits="objectBoundingBox" id="filter-57">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-58" x="0" y="0" width="322" height="98" rx="20"></rect>
+        <filter x="-5.9%" y="-19.4%" width="118.0%" height="159.2%" filterUnits="objectBoundingBox" id="filter-59">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="34.7468226%" x2="121.685048%" y2="70.2650653%" id="linearGradient-60">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-61" x="0" y="0" width="172" height="95" rx="20"></rect>
+        <filter x="-11.0%" y="-20.0%" width="133.7%" height="161.1%" filterUnits="objectBoundingBox" id="filter-62">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="14.4042969%" y1="0%" x2="83.5063334%" y2="96.1135196%" id="linearGradient-63">
+            <stop stop-color="#06DFA7" offset="0%"></stop>
+            <stop stop-color="#BFF968" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-64" x="0" y="0" width="172" height="95" rx="20"></rect>
+        <filter x="-11.0%" y="-20.0%" width="133.7%" height="161.1%" filterUnits="objectBoundingBox" id="filter-65">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="20.690918%" y1="0%" x2="77.5887197%" y2="96.1135196%" id="linearGradient-66">
+            <stop stop-color="#DF0612" offset="0%"></stop>
+            <stop stop-color="#F9B368" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-67" x="0" y="0" width="172" height="95" rx="20"></rect>
+        <filter x="-11.0%" y="-20.0%" width="133.7%" height="161.1%" filterUnits="objectBoundingBox" id="filter-68">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-69" x="0" y="0" width="172" height="95" rx="20"></rect>
+        <filter x="-11.0%" y="-20.0%" width="133.7%" height="161.1%" filterUnits="objectBoundingBox" id="filter-70">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="45.8703486%" x2="121.685048%" y2="55.486572%" id="linearGradient-71">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-72" x="0" y="0" width="341" height="98" rx="20"></rect>
+        <filter x="-5.6%" y="-19.4%" width="117.0%" height="159.2%" filterUnits="objectBoundingBox" id="filter-73">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="44.4109268%" x2="121.685048%" y2="57.4255304%" id="linearGradient-74">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-75" x="0" y="0" width="332" height="111" rx="20"></rect>
+        <filter x="-5.7%" y="-17.1%" width="117.5%" height="152.3%" filterUnits="objectBoundingBox" id="filter-76">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="45.1875272%" x2="121.685048%" y2="56.3937547%" id="linearGradient-77">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-78" x="0" y="0" width="332" height="103" rx="20"></rect>
+        <filter x="-5.7%" y="-18.4%" width="117.5%" height="156.3%" filterUnits="objectBoundingBox" id="filter-79">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-80" x="0" y="0" width="332" height="103" rx="20"></rect>
+        <filter x="-5.7%" y="-18.4%" width="117.5%" height="156.3%" filterUnits="objectBoundingBox" id="filter-81">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="44.4126531%" x2="121.685048%" y2="57.423237%" id="linearGradient-82">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-83" x="0" y="0" width="350" height="117" rx="20"></rect>
+        <filter x="-5.4%" y="-16.2%" width="116.6%" height="149.6%" filterUnits="objectBoundingBox" id="filter-84">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-85" x="0" y="0" width="332" height="103" rx="20"></rect>
+        <filter x="-5.7%" y="-18.4%" width="117.5%" height="156.3%" filterUnits="objectBoundingBox" id="filter-86">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="43.0251125%" x2="121.685048%" y2="59.2666955%" id="linearGradient-87">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-88" x="0" y="0" width="332" height="124" rx="20"></rect>
+        <filter x="-5.7%" y="-15.3%" width="117.5%" height="146.8%" filterUnits="objectBoundingBox" id="filter-89">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="39.2219388%" x2="121.685048%" y2="64.3195158%" id="linearGradient-90">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-91" x="0" y="0" width="224" height="104" rx="20"></rect>
+        <filter x="-8.5%" y="-18.3%" width="125.9%" height="155.8%" filterUnits="objectBoundingBox" id="filter-92">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-93" x="0" y="0" width="224" height="104" rx="20"></rect>
+        <filter x="-8.5%" y="-18.3%" width="125.9%" height="155.8%" filterUnits="objectBoundingBox" id="filter-94">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="36.4917489%" x2="121.685048%" y2="67.9467913%" id="linearGradient-95">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-96" x="0" y="0" width="177" height="92" rx="20"></rect>
+        <filter x="-10.7%" y="-20.7%" width="132.8%" height="163.0%" filterUnits="objectBoundingBox" id="filter-97">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-98" x="0" y="0" width="177" height="92" rx="20"></rect>
+        <filter x="-10.7%" y="-20.7%" width="132.8%" height="163.0%" filterUnits="objectBoundingBox" id="filter-99">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-100" x="0" y="0" width="177" height="92" rx="20"></rect>
+        <filter x="-10.7%" y="-20.7%" width="132.8%" height="163.0%" filterUnits="objectBoundingBox" id="filter-101">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-102" x="0" y="0" width="177" height="92" rx="20"></rect>
+        <filter x="-10.7%" y="-20.7%" width="132.8%" height="163.0%" filterUnits="objectBoundingBox" id="filter-103">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="35.6038073%" x2="121.685048%" y2="69.1264927%" id="linearGradient-104">
+            <stop stop-color="#FFCC23" offset="0%"></stop>
+            <stop stop-color="#E3209C" offset="94.1067558%"></stop>
+            <stop stop-color="#E115A3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-105" x="0" y="0" width="205" height="110" rx="20"></rect>
+        <filter x="-9.3%" y="-17.3%" width="128.3%" height="152.7%" filterUnits="objectBoundingBox" id="filter-106">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996492347   0 0 0 0 0.266875466   0 0 0 0 0.266875466  0 0 0 0.140596694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Project-Description" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-140.000000, -148.000000)">
+            <g id="Group-22" transform="translate(142.000000, 154.000000)">
+                <path id="Line-50" d="M2515.10284,1841 L2515.10284,2134.5 L1381.102,2134.5 L1381.10284,2152.5 L1337.10284,2130.5 L1381.10284,2108.5 L1381.102,2126.5 L2507.10284,2126.5 L2507.10284,1841 L2515.10284,1841 Z" fill="#F07362" fill-rule="nonzero"></path>
+                <path id="Line-52" d="M827.102835,1494.5 L827.102,1512.5 L1476.10284,1512.5 L1476.10284,1520.5 L827.102,1520.5 L827.102835,1538.5 L783.102835,1516.5 L827.102835,1494.5 Z" fill="#FEC627" fill-rule="nonzero"></path>
+                <path id="Line-51" d="M1923.10284,1538.5 L1879.10284,1516.5 L1923.10284,1494.5 L1923.102,1512.5 L2104.64688,1512.5 L2104.64688,1645.5 L2182.10284,1645.5 L2182.10284,1653.5 L2096.64688,1653.5 L2096.64688,1520.5 L1923.102,1520.5 L1923.10284,1538.5 Z" fill="#FEC627" fill-rule="nonzero"></path>
+                <path id="Line-45" d="M1435.10284,724.5 L1411.10284,712.5 L1435.10284,700.5 L1435.102,710.5 L2481.60284,710.5 L2481.60284,2264.5 L1524.87703,2264.5 L1524.87703,2260.5 L2477.60284,2260.5 L2477.60284,714.5 L1435.102,714.5 L1435.10284,724.5 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path d="M2803.10284,2002.5 L2778.10284,2002.5" id="Line-5" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <g id="Group-21" transform="translate(1445.602835, 2306.000000)">
+                    <path id="Line" d="M1170.5,562.5 L1170.5,579.00257 L24.497,577.53 L24.4845693,587.530812 L0.5,575.5 L24.5153912,563.530832 L24.502,573.53 L1166.5,574.99743 L1166.5,562.5 L1170.5,562.5 Z" fill="#979797" fill-rule="nonzero"></path>
+                    <path d="M1168.5,0.5 L1168.5,564.5" id="Line-4" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                </g>
+                <path d="M1127.10284,2041.5 L1127.10284,2072.5" id="Line-30" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path id="Line-21" d="M1128.10284,1216.5 L1128.102,1919.5 L1138.10284,1919.5 L1126.10284,1943.5 L1114.10284,1919.5 L1124.102,1919.5 L1124.10284,1216.5 L1128.10284,1216.5 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Line-44" d="M1799.09223,911.478822 L1799.101,921.478 L2343.60284,920.998234 L2343.60284,1975.98524 L2272.1177,1976.51476 L2272.08808,1972.51487 L2339.60284,1972.01476 L2339.60284,925.001766 L1799.104,925.478 L1799.11342,935.478813 L1775.10284,923.5 L1799.09223,911.478822 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path d="M1888.60284,1805 L2073.10284,1927.5" id="Line-29" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1127.60284,2171 L904.102835,2214.5" id="l" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1136.60284,2171 L1370.10284,2213.5" id="Line-32" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M895.102835,2311.5 L895.102835,2369.5" id="Line-31" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M895.102835,2467.5 L895.102835,2513.5" id="Line-33" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M895.102835,2624.5 L895.102835,2670.5" id="Line-34" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M895.102835,2624.5 L519.102835,2663.5" id="Line-35" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M895.602835,2624 L1282.10284,2670.5" id="Line-36" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1282.10284,2773.5 L1282.10284,2819.5" id="Line-37" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1282.60284,2943 L1119.10284,2989.5" id="Line-39" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1282.60284,2943 L1446.10284,2989.5" id="Line-40" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M895.602835,2773 L895.102835,2819.5" id="Line-38" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M869.102835,1759.5 L1126.60284,1760" id="Line-22" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1385.10284,1759.5 L1127.10284,1759.5" id="Line-23" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1678.10284,1218.5 L1678.10284,1293.5" id="Line-41" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1678.10284,1382.5 L1678.10284,1451.5" id="Line-42" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2741.10284,2050.5 L2741.10284,2251.5" id="Line-6" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M561.102835,1586.5 L376.102835,1712.5" id="Line-24" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M572.102835,1586.5 L783.102835,1712.5" id="Line-25" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path id="Line-43" d="M451.102835,911.5 L475.102835,923.5 L451.102835,935.5 L451.102,925.5 L2,925.5 L2,1974.43234 L62.035213,1972.43459 L62.1682446,1976.43238 L-2,1978.56766 L-2,921.5 L451.102,921.5 L451.102835,911.5 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path d="M572.102835,1382.5 L572.102835,1445.5" id="Line-26" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M572.102835,1224.5 L572.102835,1293.5" id="Line-27" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M370.602835,1807 L261.102835,1927.5" id="Line-28" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1126.10284,755.5 L1127.10284,870.5" id="Line-15" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1126.60284,755 L1678.10284,870.5" id="Line-16" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1126.10284,171.5 L1126.10284,264.5" id="Line-48" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <polyline id="Line-49" stroke="#979797" stroke-width="4" stroke-linecap="square" points="1411.10284 85.5 2739.10284 85.5 2741.10284 1168"></polyline>
+                <path d="M1126.60284,755 L582.102835,870.5" id="Line-17" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1127.10284,976.5 L1127.10284,1112.5" id="Line-18" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1678.10284,976.5 L1678.10284,1096.5" id="Line-19" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M572.102835,976.5 L572.102835,1096.5" id="Line-20" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1678.10284,1586.5 L1888.10284,1712.5" id="Line-14" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1673.10284,1586.5 L1472.10284,1712.5" id="Line-13" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2700.60284,1646.5 L2722.10284,1646.5" id="Line-12" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2722.10284,1571.5 L2722.10284,1786.5" id="Line-10" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2722.60284,1787 L2700.60284,1787" id="Line-11" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2758.10284,1382.5 L2758.10284,1516.5" id="Line-8" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2758.10284,1515.5 L2741.10284,1515.5" id="Line-9" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2739.10284,2251.5 L2717.10284,2251.5" id="Line-2" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2738.60284,2124 L2716.60284,2124" id="Line-2" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1126.10284,404.5 L1126.10284,462.5" id="Line-46" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M1126.10284,602.5 L1126.10284,649.5" id="Line-47" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <path d="M2803.10284,1260.5 L2803.10284,2002.5" id="Line-3" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                <g id="Group" transform="translate(841.602835, 0.000000)">
+                    <path d="M1961.5,1336.5 L1936.5,1336.5" id="Line-7" stroke="#979797" stroke-width="4" stroke-linecap="square"></path>
+                    <g id="Group-7">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <rect stroke="url(#linearGradient-1)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="559" height="162" rx="20"></rect>
+                        </g>
+                        <text id="Antibody-Development" stroke="#633347" font-family="VarelaRound-Regular, Varela Round" font-size="40" font-weight="normal" letter-spacing="1.39130467" fill="#3F041D">
+                            <tspan x="51.7269533" y="86">Antibody Development</tspan>
+                            <tspan x="134.55652" y="134">Ideal Workflow</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(841.602835, 264.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <rect stroke="url(#linearGradient-4)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="559" height="130" rx="20"></rect>
+                    </g>
+                    <text id="Decide-on-disease-th" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="59.0428225" y="63">Decide on disease that will be </tspan>
+                        <tspan x="70.8497795" y="100">targeted by a modular BsAb</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(841.602835, 462.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <rect stroke="url(#linearGradient-4)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="559" height="130" rx="20"></rect>
+                    </g>
+                    <text id="Investigation-of-ant" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="94.4265188" y="63">Investigation of antibody </tspan>
+                        <tspan x="187.43239" y="100">binding sites</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(841.602835, 649.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                        <rect stroke="url(#linearGradient-9)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="559" height="96" rx="20"></rect>
+                    </g>
+                    <text id="Design-components-of" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="55.6580403" y="63">Design components of a BsAb</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(1580.602835, 870.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <rect stroke="url(#linearGradient-12)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="184" height="96" rx="20"></rect>
+                    </g>
+                    <text id="End-B" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="52.5313038" y="63">End B</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(1029.602835, 870.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <rect stroke="url(#linearGradient-12)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="184" height="96" rx="20"></rect>
+                    </g>
+                    <text id="Linker" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="50.5845645" y="63">Linker</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(970.602835, 1112.000000)">
+                    <g id="Group-6">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
+                            <rect stroke="url(#linearGradient-17)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="301" height="96" rx="20"></rect>
+                        </g>
+                        <text id="Tag-and-Catcher" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="31.8489113" y="63">Tag and Catcher</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(474.602835, 870.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
+                        <rect stroke="url(#linearGradient-12)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="184" height="96" rx="20"></rect>
+                    </g>
+                    <text id="End-A" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="51.7363038" y="63">End A</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(365.602835, 1096.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-23"></use>
+                        <rect stroke="url(#linearGradient-22)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="402" height="112" rx="20"></rect>
+                    </g>
+                    <text id="Find-DNA-sequence-in" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="37.365215" y="53">Find DNA sequence in </tspan>
+                        <tspan x="136.866086" y="90">database</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(370.602835, 1293.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-27)" xlink:href="#path-26"></use>
+                        <rect stroke="url(#linearGradient-25)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="402" height="76" rx="20"></rect>
+                    </g>
+                    <text id="Is-End-A-allergenic?" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="57.615215" y="53">Is End A allergenic?</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(1466.602835, 1096.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
+                        <rect stroke="url(#linearGradient-22)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="402" height="112" rx="20"></rect>
+                    </g>
+                    <text id="Find-DNA-sequence-in" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="37.365215" y="53">Find DNA sequence in </tspan>
+                        <tspan x="136.866086" y="90">database</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(1471.602835, 1293.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-31)" xlink:href="#path-30"></use>
+                        <rect stroke="url(#linearGradient-25)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="402" height="76" rx="20"></rect>
+                    </g>
+                    <text id="Is-End-B-allergenic?" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="58.410215" y="53">Is End B allergenic?</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(375.602835, 1445.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                        <rect stroke="url(#linearGradient-32)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="402" height="131" rx="20"></rect>
+                    </g>
+                    <text id="Run-through-allerGEM" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="36.025215" y="62">Run through allerGEM </tspan>
+                        <tspan x="33.1915188" y="99">to test for allergenicity</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(1471.602835, 1445.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-35"></use>
+                        <rect stroke="url(#linearGradient-32)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="402" height="131" rx="20"></rect>
+                    </g>
+                    <text id="Run-through-allerGEM" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="36.025215" y="62">Run through allerGEM </tspan>
+                        <tspan x="33.1915188" y="99">to test for allergenicity</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(59.602835, 1927.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-39)" xlink:href="#path-38"></use>
+                        <rect stroke="url(#linearGradient-37)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="392" height="88" rx="20"></rect>
+                    </g>
+                    <text id="Redesign-sequence" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="53.7304328" y="59">Redesign sequence</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(1871.602835, 1927.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-41)" xlink:href="#path-40"></use>
+                        <rect stroke="url(#linearGradient-37)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="392" height="88" rx="20"></rect>
+                    </g>
+                    <text id="Redesign-sequence" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="53.7304328" y="59">Redesign sequence</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(2177.602835, 1586.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-44)" xlink:href="#path-43"></use>
+                        <rect stroke="url(#linearGradient-42)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="513" height="110" rx="20"></rect>
+                    </g>
+                    <text id="allerGEM-Allergenici" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="191.776086" y="51">allerGEM</tspan>
+                        <tspan x="42.081301" y="88">Allergenicity Neural Network</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(2319.602835, 1725.000000)">
+                    <g id="Group-14">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-47)" xlink:href="#path-46"></use>
+                            <rect stroke="url(#linearGradient-45)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="373" height="110" rx="20"></rect>
+                        </g>
+                        <text id="Molecular-Dynamics-S" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="37.9586935" y="51">Molecular Dynamics </tspan>
+                            <tspan x="110.892607" y="88">Simulation</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(2459.602835, 1451.000000)">
+                    <g id="Group-14">
+                        <g id="Group-15">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-50)" xlink:href="#path-49"></use>
+                                <rect stroke="url(#linearGradient-48)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="271" height="110" rx="20"></rect>
+                            </g>
+                            <text id="Modelling-and-Simula" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="32.1273898" y="51">Modelling and </tspan>
+                                <tspan x="60.3926075" y="88">Simulation</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(741.602835, 1943.000000)">
+                    <g id="Group-8" transform="translate(193.000000, 0.000000)">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-52)" xlink:href="#path-51"></use>
+                            <rect stroke="url(#linearGradient-37)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="392" height="88" rx="20"></rect>
+                        </g>
+                        <text id="BsAB-design-complete" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="30.100215" y="59">BsAB design complete</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-8" transform="translate(193.000000, 129.000000)">
+                        <g id="Group-9">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-54)" xlink:href="#path-53"></use>
+                                <rect stroke="url(#linearGradient-37)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="392" height="88" rx="20"></rect>
+                            </g>
+                            <text id="Run-MD-Simulation" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="53.7354328" y="58">Run MD Simulation</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-9" transform="translate(0.000000, 270.000000)">
+                        <g id="Group-10">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-57)" xlink:href="#path-56"></use>
+                                <rect stroke="url(#linearGradient-55)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="312" height="88" rx="20"></rect>
+                            </g>
+                            <text id="Linker-positive" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="50.6689113" y="59">Linker positive</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-10" transform="translate(467.000000, 0.000000)">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-59)" xlink:href="#path-58"></use>
+                                <rect stroke="url(#linearGradient-55)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="312" height="88" rx="20"></rect>
+                            </g>
+                            <text id="Linker-problematic" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="18.6486935" y="59">Linker problematic</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-4" transform="translate(696.602835, 1712.000000)">
+                    <g id="Group-2">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-62)" xlink:href="#path-61"></use>
+                            <rect stroke="url(#linearGradient-60)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="162" height="85" rx="20"></rect>
+                        </g>
+                        <text id="No" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="48.5015215" y="55">No</tspan>
+                        </text>
+                    </g>
+                    <g id="no-allergen" transform="translate(106.000000, 16.000000)" fill="url(#linearGradient-63)" fill-rule="nonzero">
+                        <path d="M25.2580645,64 C11.3306657,64 0,52.870625 0,39.190625 L0,38.50725 C0,33.110375 3.98745748,25.077875 11.8516451,14.632875 C17.5430014,7.073875 23.1405967,1.06425 23.375956,0.812125 C23.8568797,0.297375 24.5352756,0.003 25.247349,0 C25.2509208,0 25.2546203,0 25.2580645,0 C25.9663108,0 26.6427932,0.2885 27.1256305,0.79675 C27.3904574,1.075625 33.6823944,7.720625 39.7026158,15.914375 C40.5257991,17.034875 40.2662024,18.59725 39.1227009,19.404 C37.9790718,20.210875 36.3848797,19.956375 35.5614413,18.835875 C31.6736129,13.54425 27.5818064,8.82750003 25.271459,6.25575 C23.152588,8.644 19.5242288,12.861875 15.9323534,17.635375 C8.94875362,26.916375 5.1026393,34.328875 5.1026393,38.5075 L5.1026393,39.190875 C5.1026393,50.11375 14.1443885,59.00025 25.2580645,59.00025 C36.3717405,59.00025 45.4134897,50.113875 45.4134897,39.190875 L45.4134897,38.5075 C45.4134897,38.211375 45.4037947,37.94625 45.3836393,37.696875 C45.272912,36.320375 46.3217595,35.1165 47.7263885,35.008 C49.1328035,34.90025 50.3597331,35.92725 50.470588,37.303625 C50.5012038,37.685125 50.516129,38.079 50.516129,38.507625 L50.516129,39.191 C50.516129,52.870625 39.1854634,64 25.2580645,64 Z M30.6144181,44.3591828 C32.4632153,44.2386722 34.1894395,43.3594749 35.3502011,41.9468223 C35.3836535,41.9060204 35.4158144,41.8643344 35.4466836,41.8216377 L53.5266388,16.7840967 C54.3496468,15.6444247 54.0720818,14.0679331 52.9067997,13.2630129 C51.7413884,12.4579663 50.1294707,12.7295574 49.3064628,13.8692295 L31.2839838,38.8274406 C30.9368015,39.2177739 30.5035987,39.3024093 30.2709815,39.3174415 C30.0315187,39.3327264 29.5709339,39.3032935 29.1649838,38.9314032 L20.9358085,31.0772413 C19.9146691,30.1025452 18.2792443,30.1223776 17.2829035,31.1208223 C16.2864336,32.1193932 16.3063243,33.7188753 17.3274637,34.6934452 L25.5704591,42.5608708 C25.5782087,42.5681975 25.5858292,42.5755241 25.593708,42.5827244 C26.8295115,43.7332601 28.4791439,44.3733333 30.1761779,44.3733333 C30.3221289,44.3733333 30.468338,44.3687833 30.6144181,44.3591828 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-5" transform="translate(289.602835, 1712.000000)">
+                    <g id="Group-3">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-65)" xlink:href="#path-64"></use>
+                            <rect stroke="url(#linearGradient-60)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="162" height="85" rx="20"></rect>
+                        </g>
+                        <text id="Yes" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="44.7847823" y="55">Yes</tspan>
+                        </text>
+                    </g>
+                    <g id="allergen" transform="translate(108.000000, 16.000000)" fill="url(#linearGradient-66)" fill-rule="nonzero">
+                        <path d="M24.7275567,0 C25.4209274,0 26.0832013,0.2885 26.5558973,0.79675 C26.8151619,1.075625 32.9749462,7.720625 38.8687218,15.914375 C39.6746154,17.034875 39.4204711,18.59725 38.3009872,19.404 C37.1813783,20.210875 35.6206699,19.956375 34.8145265,18.835875 C31.0083561,13.54425 27.0024919,8.82750003 24.7406698,6.25575 C22.6663025,8.644 19.1141516,12.861875 15.5977181,17.635375 C8.76079846,26.916375 4.995466,34.328875 4.995466,38.5075 L4.995466,39.190875 C4.995466,50.11375 13.8473068,59.00025 24.7275567,59.00025 C30.9028204,59.00025 36.4246697,56.1376681 40.0455691,51.6648512 C41.023447,50.4569003 41.8626791,49.1315068 42.5386923,47.7133385 C42.8976919,46.758967 43.8184011,46.08 44.8975689,46.08 C46.2891347,46.08 47.4172217,47.2089588 47.4172217,48.6016 C47.4172217,49.1446582 47.1888962,49.9351064 46.8970903,50.3466667 C46.0640174,52.0546795 45.0977912,53.3656575 43.9126194,54.8266935 C39.3748804,60.4206502 32.4600195,64 24.7275567,64 C11.092682,64 0,52.870625 0,39.190625 L0,38.50725 C0,33.110375 3.90370691,25.077875 11.6027191,14.632875 C17.174537,7.073875 22.6545632,1.06425 22.8849791,0.812125 C23.3558017,0.297375 24.0199489,0.003 24.7170663,0 L24.7275567,0 Z M24.736431,17.2951612 L34.6843098,27.2504212 L44.6331814,17.2951612 C45.6321516,16.295419 47.2518022,16.295419 48.2507724,17.2951612 C49.2497425,18.2949033 49.2497425,19.9158057 48.2507724,20.9155478 L38.3022071,30.8711145 L48.2507724,40.8276748 C49.2497425,41.827417 49.2497425,43.4483193 48.2507724,44.4480615 C47.2518022,45.4478037 45.6321516,45.4478037 44.6331814,44.4480615 L34.6843098,34.4918078 L24.736431,44.4480615 C23.7374609,45.4478037 22.1178102,45.4478037 21.1188401,44.4480615 C20.1198699,43.4483193 20.1198699,41.827417 21.1188401,40.8276748 L31.0664124,30.8711145 L21.1188401,20.9155478 C20.1198699,19.9158057 20.1198699,18.2949033 21.1188401,17.2951612 C22.1178102,16.295419 23.7374609,16.295419 24.736431,17.2951612 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-4" transform="translate(1385.602835, 1710.000000)">
+                    <g id="Group-2">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-68)" xlink:href="#path-67"></use>
+                            <rect stroke="url(#linearGradient-60)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="162" height="85" rx="20"></rect>
+                        </g>
+                        <text id="No" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="48.5015215" y="55">No</tspan>
+                        </text>
+                    </g>
+                    <g id="no-allergen" transform="translate(106.000000, 16.000000)" fill="url(#linearGradient-63)" fill-rule="nonzero">
+                        <path d="M25.2580645,64 C11.3306657,64 0,52.870625 0,39.190625 L0,38.50725 C0,33.110375 3.98745748,25.077875 11.8516451,14.632875 C17.5430014,7.073875 23.1405967,1.06425 23.375956,0.812125 C23.8568797,0.297375 24.5352756,0.003 25.247349,0 C25.2509208,0 25.2546203,0 25.2580645,0 C25.9663108,0 26.6427932,0.2885 27.1256305,0.79675 C27.3904574,1.075625 33.6823944,7.720625 39.7026158,15.914375 C40.5257991,17.034875 40.2662024,18.59725 39.1227009,19.404 C37.9790718,20.210875 36.3848797,19.956375 35.5614413,18.835875 C31.6736129,13.54425 27.5818064,8.82750003 25.271459,6.25575 C23.152588,8.644 19.5242288,12.861875 15.9323534,17.635375 C8.94875362,26.916375 5.1026393,34.328875 5.1026393,38.5075 L5.1026393,39.190875 C5.1026393,50.11375 14.1443885,59.00025 25.2580645,59.00025 C36.3717405,59.00025 45.4134897,50.113875 45.4134897,39.190875 L45.4134897,38.5075 C45.4134897,38.211375 45.4037947,37.94625 45.3836393,37.696875 C45.272912,36.320375 46.3217595,35.1165 47.7263885,35.008 C49.1328035,34.90025 50.3597331,35.92725 50.470588,37.303625 C50.5012038,37.685125 50.516129,38.079 50.516129,38.507625 L50.516129,39.191 C50.516129,52.870625 39.1854634,64 25.2580645,64 Z M30.6144181,44.3591828 C32.4632153,44.2386722 34.1894395,43.3594749 35.3502011,41.9468223 C35.3836535,41.9060204 35.4158144,41.8643344 35.4466836,41.8216377 L53.5266388,16.7840967 C54.3496468,15.6444247 54.0720818,14.0679331 52.9067997,13.2630129 C51.7413884,12.4579663 50.1294707,12.7295574 49.3064628,13.8692295 L31.2839838,38.8274406 C30.9368015,39.2177739 30.5035987,39.3024093 30.2709815,39.3174415 C30.0315187,39.3327264 29.5709339,39.3032935 29.1649838,38.9314032 L20.9358085,31.0772413 C19.9146691,30.1025452 18.2792443,30.1223776 17.2829035,31.1208223 C16.2864336,32.1193932 16.3063243,33.7188753 17.3274637,34.6934452 L25.5704591,42.5608708 C25.5782087,42.5681975 25.5858292,42.5755241 25.593708,42.5827244 C26.8295115,43.7332601 28.4791439,44.3733333 30.1761779,44.3733333 C30.3221289,44.3733333 30.468338,44.3687833 30.6144181,44.3591828 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-5" transform="translate(1797.602835, 1710.000000)">
+                    <g id="Group-3">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-70)" xlink:href="#path-69"></use>
+                            <rect stroke="url(#linearGradient-60)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="162" height="85" rx="20"></rect>
+                        </g>
+                        <text id="Yes" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="44.7847823" y="55">Yes</tspan>
+                        </text>
+                    </g>
+                    <g id="allergen" transform="translate(108.000000, 16.000000)" fill="url(#linearGradient-66)" fill-rule="nonzero">
+                        <path d="M24.7275567,0 C25.4209274,0 26.0832013,0.2885 26.5558973,0.79675 C26.8151619,1.075625 32.9749462,7.720625 38.8687218,15.914375 C39.6746154,17.034875 39.4204711,18.59725 38.3009872,19.404 C37.1813783,20.210875 35.6206699,19.956375 34.8145265,18.835875 C31.0083561,13.54425 27.0024919,8.82750003 24.7406698,6.25575 C22.6663025,8.644 19.1141516,12.861875 15.5977181,17.635375 C8.76079846,26.916375 4.995466,34.328875 4.995466,38.5075 L4.995466,39.190875 C4.995466,50.11375 13.8473068,59.00025 24.7275567,59.00025 C30.9028204,59.00025 36.4246697,56.1376681 40.0455691,51.6648512 C41.023447,50.4569003 41.8626791,49.1315068 42.5386923,47.7133385 C42.8976919,46.758967 43.8184011,46.08 44.8975689,46.08 C46.2891347,46.08 47.4172217,47.2089588 47.4172217,48.6016 C47.4172217,49.1446582 47.1888962,49.9351064 46.8970903,50.3466667 C46.0640174,52.0546795 45.0977912,53.3656575 43.9126194,54.8266935 C39.3748804,60.4206502 32.4600195,64 24.7275567,64 C11.092682,64 0,52.870625 0,39.190625 L0,38.50725 C0,33.110375 3.90370691,25.077875 11.6027191,14.632875 C17.174537,7.073875 22.6545632,1.06425 22.8849791,0.812125 C23.3558017,0.297375 24.0199489,0.003 24.7170663,0 L24.7275567,0 Z M24.736431,17.2951612 L34.6843098,27.2504212 L44.6331814,17.2951612 C45.6321516,16.295419 47.2518022,16.295419 48.2507724,17.2951612 C49.2497425,18.2949033 49.2497425,19.9158057 48.2507724,20.9155478 L38.3022071,30.8711145 L48.2507724,40.8276748 C49.2497425,41.827417 49.2497425,43.4483193 48.2507724,44.4480615 C47.2518022,45.4478037 45.6321516,45.4478037 44.6331814,44.4480615 L34.6843098,34.4918078 L24.736431,44.4480615 C23.7374609,45.4478037 22.1178102,45.4478037 21.1188401,44.4480615 C20.1198699,43.4483193 20.1198699,41.827417 21.1188401,40.8276748 L31.0664124,30.8711145 L21.1188401,20.9155478 C20.1198699,19.9158057 20.1198699,18.2949033 21.1188401,17.2951612 C22.1178102,16.295419 23.7374609,16.295419 24.736431,17.2951612 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+                <g id="Group-10" transform="translate(732.602835, 2369.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-73)" xlink:href="#path-72"></use>
+                        <rect stroke="url(#linearGradient-71)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="331" height="88" rx="20"></rect>
+                    </g>
+                    <text id="Wetlab-preparation" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="23.7836935" y="59">Wetlab preparation</tspan>
+                    </text>
+                </g>
+                <g id="Group-10" transform="translate(737.602835, 2513.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-76)" xlink:href="#path-75"></use>
+                        <rect stroke="url(#linearGradient-74)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="322" height="101" rx="20"></rect>
+                    </g>
+                    <text id="Sequence-modificatio" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="91.946086" y="47">Sequence </tspan>
+                        <tspan x="40.582172" y="84">modification for:</tspan>
+                    </text>
+                </g>
+                <g id="Group-10" transform="translate(737.602835, 2670.000000)">
+                    <g id="Group-11">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-79)" xlink:href="#path-78"></use>
+                            <rect stroke="url(#linearGradient-77)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="322" height="93" rx="20"></rect>
+                        </g>
+                        <text id="Cloning-method" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="44.8356505" y="61">Cloning method</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-11" transform="translate(737.602835, 2819.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-81)" xlink:href="#path-80"></use>
+                        <rect stroke="url(#linearGradient-77)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="322" height="93" rx="20"></rect>
+                    </g>
+                    <text id="Gibson-assembly" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="38.4189113" y="63">Gibson assembly</tspan>
+                    </text>
+                </g>
+                <g id="Group-10" transform="translate(343.602835, 2663.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-84)" xlink:href="#path-83"></use>
+                        <rect stroke="url(#linearGradient-82)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="340" height="107" rx="20"></rect>
+                    </g>
+                    <text id="Required-standards-e" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="26.7136935" y="50">Required standards </tspan>
+                        <tspan x="24.5569542" y="87">e.g. BioBrick RFC10</tspan>
+                    </text>
+                </g>
+                <g id="Group-10" transform="translate(1113.602835, 2670.000000)">
+                    <g id="Group-11">
+                        <g id="Group-12">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-86)" xlink:href="#path-85"></use>
+                                <rect stroke="url(#linearGradient-77)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="322" height="93" rx="20"></rect>
+                            </g>
+                            <text id="Expression-system" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="25.9604328" y="61">Expression system</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-10" transform="translate(1113.602835, 2819.000000)">
+                    <g id="Group-11">
+                        <g id="Group-12">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-89)" xlink:href="#path-88"></use>
+                                <rect stroke="url(#linearGradient-87)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="322" height="114" rx="20"></rect>
+                            </g>
+                            <text id="Codon-optimising-for" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="32.197172" y="53">Codon optimising </tspan>
+                                <tspan x="140.353043" y="90">for:</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-10" transform="translate(1001.602835, 2989.000000)">
+                    <g id="Group-11">
+                        <g id="Group-12">
+                            <g id="Group-13">
+                                <g id="Rectangle" fill-rule="nonzero">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-92)" xlink:href="#path-91"></use>
+                                    <rect stroke="url(#linearGradient-90)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="214" height="94" rx="20"></rect>
+                                </g>
+                                <text id="Eukaryotic" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                    <tspan x="32.1026075" y="62">Eukaryotic</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-13" transform="translate(1333.602835, 2989.000000)">
+                    <g id="Rectangle" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-94)" xlink:href="#path-93"></use>
+                        <rect stroke="url(#linearGradient-90)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="214" height="94" rx="20"></rect>
+                    </g>
+                    <text id="Prokaryotic" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                        <tspan x="25.4908683" y="62">Prokaryotic</tspan>
+                    </text>
+                </g>
+                <g id="Group-15" transform="translate(2600.602835, 1290.000000)">
+                    <g id="Group-16">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-97)" xlink:href="#path-96"></use>
+                            <rect stroke="url(#linearGradient-95)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="167" height="82" rx="20"></rect>
+                        </g>
+                        <text id="Drylab" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="38.8095645" y="56">Drylab</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-15" transform="translate(2650.602835, 1168.000000)">
+                    <g id="Group-16">
+                        <g id="Group-17">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-99)" xlink:href="#path-98"></use>
+                                <rect stroke="url(#linearGradient-95)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="167" height="82" rx="20"></rect>
+                            </g>
+                            <text id="Tools" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="48.5413037" y="56">Tools</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-15" transform="translate(2600.602835, 1956.000000)">
+                    <g id="Group-16">
+                        <g id="Group-18">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-101)" xlink:href="#path-100"></use>
+                                <rect stroke="url(#linearGradient-95)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="167" height="82" rx="20"></rect>
+                            </g>
+                            <text id="Wetlab" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="35.0295645" y="56">Wetlab</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-18" transform="translate(2539.602835, 2078.000000)">
+                    <g id="Group-19">
+                        <g id="Rectangle" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-103)" xlink:href="#path-102"></use>
+                            <rect stroke="url(#linearGradient-95)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="167" height="82" rx="20"></rect>
+                        </g>
+                        <text id="Blasting" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                            <tspan x="26.666086" y="56">Blasting</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-18" transform="translate(2511.602835, 2196.000000)">
+                    <g id="Group-19">
+                        <g id="Group-20">
+                            <g id="Rectangle" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-106)" xlink:href="#path-105"></use>
+                                <rect stroke="url(#linearGradient-104)" stroke-width="10" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="5" y="5" width="195" height="100" rx="20"></rect>
+                            </g>
+                            <text id="Codon-optimising" font-family="VarelaRound-Regular, Varela Round" font-size="30" font-weight="normal" letter-spacing="1.0434785" fill="#3F041D">
+                                <tspan x="52.8663038" y="46">Codon </tspan>
+                                <tspan x="22.2526075" y="83">optimising</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

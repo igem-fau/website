@@ -2,7 +2,7 @@
 name: Florian Wolz 
 field: detector physicist
 role: Instructor
-quote: 
+quote:  iGEM is love, iGEM is life
 semester: 
 
 # Role

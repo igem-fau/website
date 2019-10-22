@@ -578,6 +578,9 @@
         <h1 class="text-white text-5xl z-10" style="display: block; position: absolute; left: 50%; top: 50%; width: 450px; height: 60px; vertical-align: middle; text-align: center; margin-top: -30px; margin-left: -225px;">{{ .Params.title }}</h1>
         {{ end }}
 
+        {{ if isset .Params "image" }}
+        <div class="text-white text-5xl z-10" style="display: block; position: absolute; left: 50%; top: 50%; width: 800px; height: 400px; vertical-align: middle; text-align: center; margin-top: -120px; margin-left: -400px;"><img style="width: 100%" src="{{ .Params.image }}"></div>
+        {{ end }}
 </header>
 
 <div class="sm:hidden xs:hidden md:hidden lg:hidden sticky-header sticky-off sticky top-0 z-50 shadow-xl" style="background: url('/images/sticky-background-{{ if (isset .Params "color") }}{{ .Params.color }}{{ else }}blue{{ end }}.svg'); height: 80px;">

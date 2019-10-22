@@ -61,7 +61,7 @@ This also shows that the (EA3K)n linker possesses a longer average length, when 
 
 According to Klein et al., the diameter of an scFv is about 35 Å \[Klein et al. 2009\]. Our own distance calculations of the scFv fragment from the pdb entry 3h3b using pymol resulted in an average diameter of about 42 Å. We calculated the distance between the C-terminal {{% rawhtml %}}&alpha;{{% /rawhtml %}}-C atom of the V<sub>H</sub> region (where the linker to the complement scFv is attached) and {{% rawhtml %}}&alpha;{{% /rawhtml %}}-C atoms of residues lying at the outer border of the protein. This can be seen in the video below. The V<sub>H</sub> and V<sub>L</sub> regions are colored in red and green, respectively. The linker would be attached at the yellow marked atom. The aforementioned {{% rawhtml %}}&alpha;{{% /rawhtml %}}-C atoms are presented as spheres.
 
-![<scFv domain>](/awards/images/lscFv.gif)
+{{% figure id="3" title="scFv domain" src="/awards/images/scFv_shitty_quality.gif" %}}
 
 Former studies have shown that a short linker can impair the functional properties of domains within fusion proteins. In general, too close distances between protein domains may destabilize the whole protein conformation, thus impairing its functionality \[Vazana et al. 2013, Arai et al. 2001, Arai et al. 2004\]. Additionally, simulations by Robinson-Mosher et al. \[Robinson-Mosher et al., 2013\] came to the conclusion that the actual distance between domains of linker-tethered proteins was multiple times closer than the attachment points of the linker connecting the domains. So, in order to maintain protein flexibility while still securing a certain distance between the scFv regions, our chosen linker should possess approx. half the diameter of the attached domain. Thus, we excluded the linkers (G4S)2 and (G4S)3, which adapted average end-to-end distances of 14.7 Å and 18.6 Å, respectively. On the other hand, we did not want to include more motif repeats than necessary for successful expression, because with the number of homologous repeats within a sequence rises the probability of deletion of sequence parts during cloning experiments, thereby diminishing the control over the final protein sequence and conformation.
 
@@ -103,7 +103,7 @@ What seems like an unnecessary complication has mere practical implications: by 
 
 After several steps of these building blocks we finally take the information into account for the final prediction: this is obtained by a single neuron that is fully connected to all neurons from the preceding layer and uses a sigmoid activation to keep the output within a range between 0 and 1. 
 
-{{% figure id="4" title="Architecture of our neural network" src="/awards/images/neural-network-architecture.svg" %}}
+{{% figure id="5" title="Architecture of our neural network" src="/awards/images/neural-network-architecture.svg" %}}
 
 In total this leaves us with a model with 128,000 trainable parameters. The model is built with the help of the popular TensorFlow library and trained on NVidia Kepler K80 GPUs offered at Google Colaboratory for free.
 

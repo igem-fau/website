@@ -7,13 +7,16 @@
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
-    text-align: center
-}
-
-.logo_2019 {
+  }
+  
+  #top_title {
     display: none;
-}
+  }
+  
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul {
+     padding: 0;
+     margin: 0;
+  }
 
 /*****************
     Headlines
