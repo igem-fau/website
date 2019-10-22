@@ -25,9 +25,9 @@ and BBa\_K3117048 [K2b E. coli](http://parts.igem.org/Part:BBa_K3117048) (K2b)
 {{% rawhtml %}}<div style="padding-top: 50px;"></div>{{% /rawhtml %}}
 
 This design allows us to create three differently linked bispecific antibody types. 
-In K1 the antigen binding regions are connected by a flexible Glycine-Serine Linker (BBa\_K3117004) [GS Linker](http://parts.igem.org/Part:BBa_K3117004)), which is the standard linker in many fusion proteins. 
+In K1 the antigen binding regions are connected by a flexible Glycine-Serine Linker (BBa\_K3117004) [GS Linker](http://parts.igem.org/Part:BBa_K3117004)), commonly used in fusion proteins (Trinh et al. 2004). 
 Whereas K2 relies on SpyTag/SpyCatcher, a system introduced by Mark Howarth. This allows to create fusion proteins by adding the SpyTag to one protein and the SpyCatcher to another. 
-Once those proteins get into close contact a spontaneous binding, between Asparagin and Lysin residue in the protein segments, occurs forming a covalent bond. 
+Once those proteins get into close contact a spontaneous binding, between Asparagin and Lysin residue in the protein segments, occurs forming a covalent bond (Hatlem et al., 2019). 
 
 In our project this allows to create a bispecific antibody with the potential to not only create one antibody, but a whole toolbox of bispecific antibodies. 
 This provides the possibility to screen a wide variety of bispecific antibody combinations for their efficacy in less time and with less effort.
@@ -82,7 +82,7 @@ The leader depicted in the figures below is therefore dependent on whether the c
 
 For the *E. coli* expression pACYC184 was chosen as it is a relatively small vector making cloning easier. 
 The Vector carries two antibiotic resistances against Chloramphenicol and Tetracyclin. 
-Both resistances are superior to Ampicillin resistance in securing successful cloning, as they are facilitating actual death of prokaryotic cells with out the resistance instead of just hindering the growth. 
+Both resistances are superior to Ampicillin resistance in securing successful cloning, as they are facilitating actual death of prokaryotic cells with out the resistance instead of just hindering the growth (Kehrenberg et al., 2005). 
 Every construct designed for this vector carried its own promotor, ribosomal binding site and peIB leader and a 3' His Tag. 
 In order to compensate the highly repetitive region at the 3' region which makes binding primers a difficult task the ERLANGEN Tag was introduced to create a larger variety and better conditions for primer binding. 
 Each construct was prepared for Gibson assembly and classical restriction cloning. Primers and PCR Layout was performed according to the layout in figure 3. 
@@ -100,18 +100,19 @@ Each construct was prepared for Gibson assembly and classical restriction clonin
 
 ### pSEC/tag2/Hygro/C/-/OK
 
-This vector, kindly provided by Prof. Matthias Peipp, carries a Hygromycin resistance and is suited for protein expression in mammalian cell systems. 
+This vector, kindly provided by Prof. Matthias Peipp, carries a Hygromycin resistance and is suited for protein expression in mammalian cell systems (Makrides et al., 1999). 
 Its CMV promotor allows constitutive high yield protein expression. Besides the Resistance the vector carries a large variety of restriction sites, 
 a T7 promotor 3' of the CMV promotor for easy PCR amplification, an IgKappa Leader for protein export into the supernatant and a Myc Epitop and His-Tag for purification steps. 
 The way this vector was used it was cut with NheI and EcoRV, cleaving the IgKappa Leader and large parts of the multiple cloning site. NheI creates a 5' vector overhang, whereas EcoRV is a blunt cutting enzyme. 
 The decision to excise this part was taken in order to set the desired protein sequence directly adjacent to the leader sequence, avoiding any additional undesired amino acids. 
 Other features of the vector such as the Myc-Epitope or the His-Tag were not used as the constructs already possess at least one His-Tag.
 
+## References
 
+Trinh, R., Gurbaxani, B., Morrison, S. L., & Seyfzadeh, M. (2004). Optimization of codon pair use within the (GGGGS) 3 linker sequence results in enhanced protein expression. Molecular immunology, 40(10), 717-722.
 
+Hatlem, D., Trunk, T., Linke, D., & Leo, J. C. (2019). Catching a SPY: Using the SpyCatcher-SpyTag and Related Systems for Labeling and Localizing Bacterial Proteins. International journal of molecular sciences, 20(9), 2129.
+	
+Kehrenberg, C., Schwarz, S., Jacobsen, L., Hansen, L. H., & Vester, B. (2005). A new mechanism for chloramphenicol, florfenicol and clindamycin resistance: methylation of 23S ribosomal RNA at A2503. Molecular microbiology, 57(4), 1064-1073.
 
-
-
-
-
-
+Makrides, S. C. (1999). Components of vectors for gene transfer and expression in mammalian cells. Protein expression and purification, 17(2), 183-202.

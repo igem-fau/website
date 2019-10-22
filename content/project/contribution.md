@@ -3,7 +3,7 @@ title: Contribution
 color: green
 ---
 
-For the measurement, we chose the Part BBa_E0020, which is an engineered cyan fluorescent protein (CFP) derived from *A. victoria* GFP designed by Caitlin Conboy and Jennifer Braff. We performed the cloning with the restriction enzymes XbaI and EcoRI into the vector pUC19. CFP was under control of the lac promotor (BBa_K3117031) and the lac operator (BBa_K3117010). For the amplification, the cloned plasmid was transformed by heat shock into the E.coli cloning strain DH5α. After plasmid preparation, the construct was transformed into the E.coli expression strains BL21 Star (DE3) and BL21 (DE3). The clones for overnight cultures were picked under a fluorescence microscope to ensure that they contain the CFP insert.
+For the measurement, we chose the Part BBa_E0020, which is an engineered cyan fluorescent protein (CFP) derived from *A. victoria* GFP designed by Caitlin Conboy and Jennifer Braff. We performed the cloning with the restriction enzymes XbaI and EcoRI into the vector pUC19. CFP was under control of the lac promotor and the lac operator. For the amplification, the cloned plasmid was transformed by heat shock into the E.coli cloning strain DH5α. After plasmid preparation, the construct was transformed into the E.coli expression strains BL21 Star (DE3) and BL21 (DE3). The clones for overnight cultures were picked under a fluorescence microscope to ensure that they contain the CFP insert.
 To assure the same amount of cells, the OD of the distinct strains of the overnight cultures was measured.
 
 |  Culture  |  OD |
